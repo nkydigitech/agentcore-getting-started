@@ -1,0 +1,11 @@
+
+# AgentCore local/generated files
+CustomerSupport/**/.env.local
+CustomerSupport/**/.cli/
+CustomerSupport/**/__pycache__/
+CustomerSupport/**/*.pyc
+CustomerSupport/**/.venv/
+CustomerSupport/**/node_modules/
+
+# Local backup
+CustomerSupport/**/*.backup
