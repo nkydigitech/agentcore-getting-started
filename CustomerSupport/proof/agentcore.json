@@ -1,0 +1,100 @@
+{
+    "$schema": "https://schema.agentcore.aws.dev/v1/agentcore.json",
+    "name": "CustomerSupport",
+    "version": 1,
+    "managedBy": "CDK",
+    "tags": {
+        "agentcore:created-by": "agentcore-cli",
+        "agentcore:project-name": "CustomerSupport"
+    },
+    "runtimes": [
+        {
+            "name": "CustomerSupport",
+            "build": "CodeZip",
+            "entrypoint": "main.py",
+            "codeLocation": "app/CustomerSupport/",
+            "runtimeVersion": "PYTHON_3_14",
+            "networkMode": "PUBLIC",
+            "protocol": "HTTP",
+            "requestHeaderAllowlist": [
+                "X-Amzn-Bedrock-AgentCore-Runtime-Custom-User-Id"
+            ],
+            "authorizerType": "CUSTOM_JWT",
+            "authorizerConfiguration": {
+                "customJwtAuthorizer": {
+                    "discoveryUrl": "https://cognito-idp.us-east-1.amazonaws.com/us-east-1_o72nbDaJP/.well-known/openid-configuration",
+                    "allowedAudience": [
+                        "3pemaogcvsi7veb5njgrl003kr"
+                    ]
+                }
+            }
+        }
+    ],
+    "memories": [
+        {
+            "name": "SharedMemory",
+            "eventExpiryDuration": 30,
+            "strategies": [
+                {
+                    "type": "SEMANTIC",
+                    "namespaceTemplates": [
+                        "/users/{actorId}/facts"
+                    ]
+                },
+                {
+                    "type": "SUMMARIZATION",
+                    "namespaceTemplates": [
+                        "/summaries/{actorId}/{sessionId}"
+                    ]
+                }
+            ]
+        }
+    ],
+    "knowledgeBases": [],
+    "credentials": [],
+    "evaluators": [],
+    "onlineEvalConfigs": [],
+    "agentCoreGateways": [
+        {
+            "name": "my-gateway",
+            "protocolType": "None",
+            "description": "Gateway for my-gateway",
+            "targets": [
+                {
+                    "name": "WarrantyCheck",
+                    "targetType": "lambdaFunctionArn",
+                    "lambdaFunctionArn": {
+                        "lambdaArn": "arn:aws:lambda:us-east-1:309307206565:function:workshop-warranty-check",
+                        "toolSchemaFile": "app/CustomerSupport/tool/warranty_schema.json"
+                    }
+                }
+            ],
+            "authorizerType": "NONE",
+            "enableSemanticSearch": true,
+            "exceptionLevel": "NONE"
+        },
+        {
+            "name": "my-gateway-jwt",
+            "protocolType": "None",
+            "description": "Gateway for my-gateway-jwt",
+            "targets": [],
+            "authorizerType": "CUSTOM_JWT",
+            "authorizerConfiguration": {
+                "customJwtAuthorizer": {
+                    "discoveryUrl": "https://cognito-idp.us-east-1.amazonaws.com/us-east-1_o72nbDaJP/.well-known/openid-configuration",
+                    "allowedAudience": [
+                        "3pemaogcvsi7veb5njgrl003kr"
+                    ]
+                }
+            },
+            "enableSemanticSearch": true,
+            "exceptionLevel": "NONE"
+        }
+    ],
+    "policyEngines": [],
+    "configBundles": [],
+    "abTests": [],
+    "harnesses": [],
+    "datasets": [],
+    "payments": []
+}

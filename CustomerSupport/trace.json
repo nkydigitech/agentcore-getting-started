@@ -1,0 +1,2571 @@
+[
+  {
+    "@timestamp": "2026-09-03 09:59:10.272",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "bedrock_agentcore.app"
+      },
+      "timeUnixNano": 1788429550272966000,
+      "observedTimeUnixNano": 1788429550273183500,
+      "severityNumber": 9,
+      "severityText": "INFO",
+      "body": "Returning streaming response (generator) (0.000s)",
+      "attributes": {
+        "otelSpanID": "f796ef9f2c6e7eea",
+        "otelTraceID": "6a9944ee21cb24332bfaecd57372aa2f",
+        "otelTraceSampled": true,
+        "otelServiceName": "CustomerSupport_CustomerSupport.DEFAULT",
+        "code.file.path": "/var/task/bedrock_agentcore/runtime/app.py",
+        "code.function.name": "_handle_invocation",
+        "code.line.number": 580
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "f796ef9f2c6e7eea"
+    },
+    "@ptr": "CuEBCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjgaGAIGp0D8fgAAAABL08wEAAaplEkwAAAB4iABKIey0rWGNDCoiNW1hjQ4D0DU2AJI38cBUIaQASACEAYYAQ=="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:10.273",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "bedrock_agentcore.app"
+      },
+      "timeUnixNano": 1788429550273834800,
+      "observedTimeUnixNano": 1788429550274016300,
+      "severityNumber": 9,
+      "severityText": "INFO",
+      "body": "Invoking Agent.....",
+      "attributes": {
+        "otelSpanID": "f796ef9f2c6e7eea",
+        "otelTraceID": "6a9944ee21cb24332bfaecd57372aa2f",
+        "otelTraceSampled": true,
+        "otelServiceName": "CustomerSupport_CustomerSupport.DEFAULT",
+        "code.file.path": "/var/task/main.py",
+        "code.function.name": "invoke",
+        "code.line.number": 71
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "f796ef9f2c6e7eea"
+    },
+    "@ptr": "CuEBCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjgaGAIGp0D8fgAAAABL08wEAAaplEkwAAAB4iABKIey0rWGNDCoiNW1hjQ4D0DU2AJI38cBUIaQASACEAcYAQ=="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:10.366",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-east-1",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "telemetry.sdk.version": "1.44.0",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.19.0-aws"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-agentcore",
+        "version": "0.65b0"
+      },
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "4ddca8cd2028db64",
+      "parentSpanId": "34696c98b5eafaa2",
+      "flags": 256,
+      "name": "Bedrock AgentCore.CreateEvent",
+      "kind": "CLIENT",
+      "startTimeUnixNano": 1788429550274853600,
+      "endTimeUnixNano": 1788429550366537000,
+      "durationNano": 91683233,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "telemetry.extended": "true",
+        "rpc.service": "Bedrock AgentCore",
+        "aws.remote.resource.identifier": "CustomerSupport_SharedMemory-rTT75GC95r",
+        "rpc.system": "aws-api",
+        "aws.remote.service": "AWS::BedrockAgentCore",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "aws.remote.operation": "CreateEvent",
+        "server.address": "bedrock-agentcore.us-east-1.amazonaws.com",
+        "aws.request_id": "078a1da7-0cf5-418b-b196-eabdfee2ff4f",
+        "http.status_code": 201,
+        "aws.local.operation": "UnmappedOperation",
+        "aws.span.kind": "CLIENT",
+        "aws.region": "us-east-1",
+        "gen_ai.memory.id": "CustomerSupport_SharedMemory-rTT75GC95r",
+        "aws.remote.resource.type": "AWS::BedrockAgentCore::Memory",
+        "aws.auth.region": "us-east-1",
+        "rpc.method": "CreateEvent",
+        "server.port": 443,
+        "retry_attempts": 0,
+        "PlatformType": "AWS::BedrockAgentCore",
+        "http.response.status_code": 201,
+        "aws.auth.account.access_key": "ASIAUQBBFNOS7QQRUOM6",
+        "session.id": "45b9e2b3-720e-49a2-9ce3-9035ddbcab0a"
+      },
+      "status": {
+        "code": "UNSET"
+      }
+    },
+    "@ptr": "Ct8BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjYaGAIGp/j2sgAAAAC9ZiTeAAaplEuAAAADIiABKJ6G1bWGNDC10di1hjQ4B0DdwgFIwn5QhFcgAhAAGAE="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:10.366",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "bedrock_agentcore.memory.client"
+      },
+      "timeUnixNano": 1788429550366746400,
+      "observedTimeUnixNano": 1788429550366891300,
+      "severityNumber": 9,
+      "severityText": "INFO",
+      "body": "Created event: 0000001788429550274#ea0be0c0",
+      "attributes": {
+        "otelSpanID": "34696c98b5eafaa2",
+        "otelTraceID": "6a9944ee21cb24332bfaecd57372aa2f",
+        "otelTraceSampled": true,
+        "otelServiceName": "CustomerSupport_CustomerSupport.DEFAULT",
+        "code.file.path": "/var/task/bedrock_agentcore/memory/client.py",
+        "code.function.name": "create_event",
+        "code.line.number": 555
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "34696c98b5eafaa2"
+    },
+    "@ptr": "CuEBCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjgaGAIGp0D8fgAAAABL08wEAAaplEkwAAAB4iABKIey0rWGNDCoiNW1hjQ4D0DU2AJI38cBUIaQASACEAgYAQ=="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:10.623",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-east-1",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "telemetry.sdk.version": "1.44.0",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.19.0-aws"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-agentcore",
+        "version": "0.65b0"
+      },
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "5c10d2ed0feb9367",
+      "parentSpanId": "34696c98b5eafaa2",
+      "flags": 256,
+      "name": "Bedrock AgentCore.RetrieveMemoryRecords",
+      "kind": "CLIENT",
+      "startTimeUnixNano": 1788429550367452400,
+      "endTimeUnixNano": 1788429550623608600,
+      "durationNano": 256156368,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "telemetry.extended": "true",
+        "rpc.service": "Bedrock AgentCore",
+        "aws.remote.resource.identifier": "CustomerSupport_SharedMemory-rTT75GC95r",
+        "rpc.system": "aws-api",
+        "aws.remote.service": "AWS::BedrockAgentCore",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "aws.remote.operation": "RetrieveMemoryRecords",
+        "server.address": "bedrock-agentcore.us-east-1.amazonaws.com",
+        "aws.request_id": "0a860b5c-4522-45ea-b550-5d02e0ac39a1",
+        "http.status_code": 200,
+        "aws.local.operation": "UnmappedOperation",
+        "aws.span.kind": "CLIENT",
+        "aws.region": "us-east-1",
+        "gen_ai.memory.id": "CustomerSupport_SharedMemory-rTT75GC95r",
+        "aws.remote.resource.type": "AWS::BedrockAgentCore::Memory",
+        "aws.auth.region": "us-east-1",
+        "rpc.method": "RetrieveMemoryRecords",
+        "server.port": 443,
+        "retry_attempts": 0,
+        "PlatformType": "AWS::BedrockAgentCore",
+        "http.response.status_code": 200,
+        "aws.auth.account.access_key": "ASIAUQBBFNOS7QQRUOM6",
+        "session.id": "45b9e2b3-720e-49a2-9ce3-9035ddbcab0a"
+      },
+      "status": {
+        "code": "UNSET"
+      }
+    },
+    "@ptr": "Ct8BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjYaGAIGp/j2sgAAAAC9ZiTeAAaplEuAAAADIiABKJ6G1bWGNDC10di1hjQ4B0DdwgFIwn5QhFcgAhABGAE="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:10.623",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "bedrock_agentcore.memory.client"
+      },
+      "timeUnixNano": 1788429550623683800,
+      "observedTimeUnixNano": 1788429550623829000,
+      "severityNumber": 9,
+      "severityText": "INFO",
+      "body": "Retrieved 2 memories from namespace: /users/Alex/facts",
+      "attributes": {
+        "otelSpanID": "34696c98b5eafaa2",
+        "otelTraceID": "6a9944ee21cb24332bfaecd57372aa2f",
+        "otelTraceSampled": true,
+        "otelServiceName": "CustomerSupport_CustomerSupport.DEFAULT",
+        "code.file.path": "/var/task/bedrock_agentcore/memory/client.py",
+        "code.function.name": "retrieve_memories",
+        "code.line.number": 414
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "34696c98b5eafaa2"
+    },
+    "@ptr": "CuEBCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjgaGAIGp0D8fgAAAABL08wEAAaplEkwAAAB4iABKIey0rWGNDCoiNW1hjQ4D0DU2AJI38cBUIaQASACEAkYAQ=="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:10.630",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-east-1",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "telemetry.sdk.version": "1.44.0",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.19.0-aws"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-agentcore",
+        "version": "0.65b0"
+      },
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "823262adaf1cbdad",
+      "parentSpanId": "34696c98b5eafaa2",
+      "flags": 256,
+      "name": "Bedrock AgentCore.RetrieveMemoryRecords",
+      "kind": "CLIENT",
+      "startTimeUnixNano": 1788429550369616000,
+      "endTimeUnixNano": 1788429550630800400,
+      "durationNano": 261184488,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "telemetry.extended": "true",
+        "rpc.service": "Bedrock AgentCore",
+        "aws.remote.resource.identifier": "CustomerSupport_SharedMemory-rTT75GC95r",
+        "rpc.system": "aws-api",
+        "aws.remote.service": "AWS::BedrockAgentCore",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "aws.remote.operation": "RetrieveMemoryRecords",
+        "server.address": "bedrock-agentcore.us-east-1.amazonaws.com",
+        "aws.request_id": "e6ed848c-4f0c-4a4a-8d24-d34c53ed3e72",
+        "http.status_code": 200,
+        "aws.local.operation": "UnmappedOperation",
+        "aws.span.kind": "CLIENT",
+        "aws.region": "us-east-1",
+        "gen_ai.memory.id": "CustomerSupport_SharedMemory-rTT75GC95r",
+        "aws.remote.resource.type": "AWS::BedrockAgentCore::Memory",
+        "aws.auth.region": "us-east-1",
+        "rpc.method": "RetrieveMemoryRecords",
+        "server.port": 443,
+        "retry_attempts": 0,
+        "PlatformType": "AWS::BedrockAgentCore",
+        "http.response.status_code": 200,
+        "aws.auth.account.access_key": "ASIAUQBBFNOS7QQRUOM6",
+        "session.id": "45b9e2b3-720e-49a2-9ce3-9035ddbcab0a"
+      },
+      "status": {
+        "code": "UNSET"
+      }
+    },
+    "@ptr": "Ct8BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjYaGAIGp/j2sgAAAAC9ZiTeAAaplEuAAAADIiABKJ6G1bWGNDC10di1hjQ4B0DdwgFIwn5QhFcgAhACGAE="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:10.630",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "bedrock_agentcore.memory.client"
+      },
+      "timeUnixNano": 1788429550630859000,
+      "observedTimeUnixNano": 1788429550630980600,
+      "severityNumber": 9,
+      "severityText": "INFO",
+      "body": "Retrieved 1 memories from namespace: /summaries/Alex/45b9e2b3-720e-49a2-9ce3-9035ddbcab0a",
+      "attributes": {
+        "otelSpanID": "34696c98b5eafaa2",
+        "otelTraceID": "6a9944ee21cb24332bfaecd57372aa2f",
+        "otelTraceSampled": true,
+        "otelServiceName": "CustomerSupport_CustomerSupport.DEFAULT",
+        "code.file.path": "/var/task/bedrock_agentcore/memory/client.py",
+        "code.function.name": "retrieve_memories",
+        "code.line.number": 414
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "34696c98b5eafaa2"
+    },
+    "@ptr": "CuEBCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjgaGAIGp0D8fgAAAABL08wEAAaplEkwAAAB4iABKIey0rWGNDCoiNW1hjQ4D0DU2AJI38cBUIaQASACEAoYAQ=="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:10.631",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "bedrock_agentcore.memory.integrations.strands.session_manager"
+      },
+      "timeUnixNano": 1788429550631412700,
+      "observedTimeUnixNano": 1788429550631501300,
+      "severityNumber": 9,
+      "severityText": "INFO",
+      "body": "Retrieved 3 customer context items",
+      "attributes": {
+        "otelSpanID": "34696c98b5eafaa2",
+        "otelTraceID": "6a9944ee21cb24332bfaecd57372aa2f",
+        "otelTraceSampled": true,
+        "otelServiceName": "CustomerSupport_CustomerSupport.DEFAULT",
+        "code.file.path": "/var/task/bedrock_agentcore/memory/integrations/strands/session_manager.py",
+        "code.function.name": "retrieve_customer_context",
+        "code.line.number": 917
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "34696c98b5eafaa2"
+    },
+    "@ptr": "CuEBCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjgaGAIGp0D8fgAAAABL08wEAAaplEkwAAAB4iABKIey0rWGNDCoiNW1hjQ4D0DU2AJI38cBUIaQASACEAsYAQ=="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:10.632",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "schemaUrl": "https://opentelemetry.io/schemas/1.30.0"
+      },
+      "timeUnixNano": 0,
+      "observedTimeUnixNano": 1788429550632982000,
+      "severityNumber": 0,
+      "severityText": "",
+      "body": {
+        "content": [
+          {
+            "text": "<user_context>Alex bought a Mechanical Keyboard on 2026-09-03.\nThe user's name is Alex.\n<topic name=\"User Introduction\">\nThe user identified themselves as Alex and stated they just bought a Mechanical Keyboard. This message was recorded on 2026-09-03 at 09:55:29 UTC (tracking_id: 34fcb431-cbfd-4ee6-b6f0-a5448ef43107).\n</topic></user_context>"
+          },
+          {
+            "text": "What did I just buy?"
+          }
+        ]
+      },
+      "attributes": {
+        "gen_ai.system": "aws.bedrock"
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "bf0280d20465bc5a",
+      "eventName": "gen_ai.user.message"
+    },
+    "@ptr": "CuEBCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjgaGAIGp0D8fgAAAABL08wEAAaplEkwAAAB4iABKIey0rWGNDCoiNW1hjQ4D0DU2AJI38cBUIaQASACEA4YAQ=="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:10.632",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "schemaUrl": "https://opentelemetry.io/schemas/1.30.0"
+      },
+      "timeUnixNano": 0,
+      "observedTimeUnixNano": 1788429550632915200,
+      "severityNumber": 0,
+      "severityText": "",
+      "body": {
+        "content": [
+          {
+            "text": "You are a helpful and professional customer support assistant for an e-commerce company.\nYour role is to:\n- Provide accurate information using the tools available to you\n- Be friendly, patient, and understanding with customers\n- Always offer additional help after answering questions\n- If you can't help with something, direct customers to the appropriate contact\n\nYou have access to tools for looking up return policies, searching product information, and more.\nAdditional tools may be available at runtime — always check your full tool list and use the most appropriate tool for each customer request.\nAlways use tools to get accurate, up-to-date information rather than guessing."
+          }
+        ]
+      },
+      "attributes": {
+        "gen_ai.system": "aws.bedrock"
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "bf0280d20465bc5a",
+      "eventName": "gen_ai.system.message"
+    },
+    "@ptr": "CuEBCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjgaGAIGp0D8fgAAAABL08wEAAaplEkwAAAB4iABKIey0rWGNDCoiNW1hjQ4D0DU2AJI38cBUIaQASACEAwYAQ=="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:10.632",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "schemaUrl": "https://opentelemetry.io/schemas/1.30.0"
+      },
+      "timeUnixNano": 0,
+      "observedTimeUnixNano": 1788429550632958000,
+      "severityNumber": 0,
+      "severityText": "",
+      "body": {
+        "content": [
+          {
+            "text": "My name is Alex and I just bought a Mechanical Keyboard"
+          }
+        ]
+      },
+      "attributes": {
+        "gen_ai.system": "aws.bedrock"
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "bf0280d20465bc5a",
+      "eventName": "gen_ai.user.message"
+    },
+    "@ptr": "CuEBCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjgaGAIGp0D8fgAAAABL08wEAAaplEkwAAAB4iABKIey0rWGNDCoiNW1hjQ4D0DU2AJI38cBUIaQASACEA0YAQ=="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:19.565",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-east-1",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "telemetry.sdk.version": "1.44.0",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.19.0-aws"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "version": "0.65b0"
+      },
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "bf0280d20465bc5a",
+      "parentSpanId": "dfd2a491cd569e2b",
+      "flags": 256,
+      "name": "chat us.amazon.nova-micro-v1:0",
+      "kind": "CLIENT",
+      "startTimeUnixNano": 1788429550632880000,
+      "endTimeUnixNano": 1788429559565592800,
+      "durationNano": 8932712622,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "rpc.service": "Bedrock Runtime",
+        "aws.remote.resource.identifier": "us.amazon.nova-micro-v1:0",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "aws.remote.operation": "ConverseStream",
+        "gen_ai.provider.name": "aws.bedrock",
+        "server.address": "bedrock-runtime.us-east-1.amazonaws.com",
+        "aws.request_id": "4d4587a1-87f4-45eb-a4f3-638f50c387f6",
+        "aws.local.operation": "UnmappedOperation",
+        "aws.span.kind": "CLIENT",
+        "aws.auth.region": "us-east-1",
+        "rpc.method": "ConverseStream",
+        "server.port": 443,
+        "gen_ai.request.model": "us.amazon.nova-micro-v1:0",
+        "http.response.status_code": 429,
+        "gen_ai.system": "aws.bedrock",
+        "telemetry.extended": "true",
+        "aws.genai.span_kind": "LLM",
+        "rpc.system": "aws-api",
+        "aws.remote.service": "AWS::BedrockRuntime",
+        "http.status_code": 429,
+        "error.type": "ThrottlingException",
+        "aws.region": "us-east-1",
+        "aws.remote.resource.type": "AWS::Bedrock::Model",
+        "gen_ai.operation.name": "chat",
+        "retry_attempts": 4,
+        "PlatformType": "AWS::BedrockAgentCore",
+        "aws.auth.account.access_key": "ASIAUQBBFNOS7QQRUOM6",
+        "session.id": "45b9e2b3-720e-49a2-9ce3-9035ddbcab0a"
+      },
+      "status": {
+        "message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.",
+        "code": "ERROR"
+      }
+    },
+    "@ptr": "Ct8BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjYaGAIGp/j2sgAAAAC9ZiTeAAaplEuAAAADIiABKJ6G1bWGNDC10di1hjQ4B0DdwgFIwn5QhFcgAhADGAE="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:19.568",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-east-1",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "telemetry.sdk.version": "1.44.0",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.19.0-aws"
+        }
+      },
+      "scope": {
+        "name": "strands.telemetry.tracer",
+        "version": ""
+      },
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "dfd2a491cd569e2b",
+      "parentSpanId": "72416b0c41f9e898",
+      "flags": 256,
+      "name": "chat",
+      "kind": "INTERNAL",
+      "startTimeUnixNano": 1788429550632376800,
+      "endTimeUnixNano": 1788429559568509700,
+      "durationNano": 8936132933,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "gen_ai.operation.name": "chat",
+        "gen_ai.event.end_time": "2026-09-03T09:59:19.566031+00:00",
+        "gen_ai.request.model": "us.amazon.nova-micro-v1:0",
+        "aws.genai.span_kind": "LLM",
+        "gen_ai.event.start_time": "2026-09-03T09:59:10.632395+00:00",
+        "PlatformType": "AWS::BedrockAgentCore",
+        "session.id": "45b9e2b3-720e-49a2-9ce3-9035ddbcab0a",
+        "gen_ai.system": "strands-agents",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "gen_ai.provider.name": "strands-agents"
+      },
+      "events": [
+        {
+          "timeUnixNano": 1788429550632435000,
+          "name": "gen_ai.system.message",
+          "attributes": {
+            "content": "[{\"text\": \"You are a helpful and professional customer support assistant for an e-commerce company.\\nYour role is to:\\n- Provide accurate information using the tools available to you\\n- Be friendly, patient, and understanding with customers\\n- Always offer additional help after answering questions\\n- If you can't help with something, direct customers to the appropriate contact\\n\\nYou have access to tools for looking up return policies, searching product information, and more.\\nAdditional tools may be available at runtime — always check your full tool list and use the most appropriate tool for each customer request.\\nAlways use tools to get accurate, up-to-date information rather than guessing.\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1788429550632451000,
+          "name": "gen_ai.user.message",
+          "attributes": {
+            "content": "[{\"text\": \"My name is Alex and I just bought a Mechanical Keyboard\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1788429550632468200,
+          "name": "gen_ai.user.message",
+          "attributes": {
+            "content": "[{\"text\": \"<user_context>Alex bought a Mechanical Keyboard on 2026-09-03.\\nThe user's name is Alex.\\n<topic name=\\\"User Introduction\\\">\\nThe user identified themselves as Alex and stated they just bought a Mechanical Keyboard. This message was recorded on 2026-09-03 at 09:55:29 UTC (tracking_id: 34fcb431-cbfd-4ee6-b6f0-a5448ef43107).\\n</topic></user_context>\"}, {\"text\": \"What did I just buy?\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1788429559568501500,
+          "name": "exception",
+          "attributes": {
+            "exception.escaped": "False",
+            "exception.stacktrace": "Traceback (most recent call last):\n  File \"/var/task/strands/models/bedrock.py\", line 1400, in _stream\n    response = converse_method(**request)\n  File \"/var/task/botocore/client.py\", line 606, in _api_call\n    return self._make_api_call(operation_name, kwargs)\n           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/task/amazon/opentelemetry/distro/patches/_botocore_patches.py\", line 291, in patched_api_call\n    result = original_func(*args, **kwargs)\n  File \"/var/task/botocore/context.py\", line 123, in wrapper\n    return func(*args, **kwargs)\n  File \"/var/task/botocore/client.py\", line 1094, in _make_api_call\n    raise error_class(parsed_response, operation_name)\nbotocore.errorfactory.ThrottlingException: An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/var/task/strands/event_loop/event_loop.py\", line 691, in terminal\n    async for event in stream_messages(\n    ...<11 lines>...\n        yield event\n  File \"/var/task/strands/event_loop/streaming.py\", line 563, in stream_messages\n    async for event in process_stream(chunks, start_time, cancel_signal):\n        yield event\n  File \"/var/task/strands/event_loop/streaming.py\", line 454, in process_stream\n    async for chunk in chunks:\n    ...<36 lines>...\n            handle_redact_content(chunk[\"redactContent\"], state)\n  File \"/var/task/strands/models/bedrock.py\", line 1350, in stream\n    await task\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/asyncio/threads.py\", line 25, in to_thread\n    return await loop.run_in_executor(None, func_call)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/concurrent/futures/thread.py\", line 86, in run\n    result = ctx.run(self.task)\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/concurrent/futures/thread.py\", line 73, in run\n    return fn(*args, **kwargs)\n  File \"/var/task/opentelemetry/instrumentation/threading/__init__.py\", line 161, in wrapped_func\n    return original_func(*func_args, **func_kwargs)\n  File \"/var/task/strands/models/bedrock.py\", line 1468, in _stream\n    raise ModelThrottledException(error_message) from e\nstrands.types.exceptions.ModelThrottledException: An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.\n",
+            "exception.type": "strands.types.exceptions.ModelThrottledException",
+            "exception.message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again."
+          }
+        }
+      ],
+      "status": {
+        "message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.",
+        "code": "ERROR"
+      }
+    },
+    "@ptr": "Ct8BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjYaGAIGp/j2sgAAAAC9ZiTeAAaplEuAAAADIiABKJ6G1bWGNDC10di1hjQ4B0DdwgFIwn5QhFcgAhAEGAE="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:23.573",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "schemaUrl": "https://opentelemetry.io/schemas/1.30.0"
+      },
+      "timeUnixNano": 0,
+      "observedTimeUnixNano": 1788429563573956400,
+      "severityNumber": 0,
+      "severityText": "",
+      "body": {
+        "content": [
+          {
+            "text": "You are a helpful and professional customer support assistant for an e-commerce company.\nYour role is to:\n- Provide accurate information using the tools available to you\n- Be friendly, patient, and understanding with customers\n- Always offer additional help after answering questions\n- If you can't help with something, direct customers to the appropriate contact\n\nYou have access to tools for looking up return policies, searching product information, and more.\nAdditional tools may be available at runtime — always check your full tool list and use the most appropriate tool for each customer request.\nAlways use tools to get accurate, up-to-date information rather than guessing."
+          }
+        ]
+      },
+      "attributes": {
+        "gen_ai.system": "aws.bedrock"
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "5fade0c4b3bc501f",
+      "eventName": "gen_ai.system.message"
+    },
+    "@ptr": "Ct4BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjUaGAIGp2dx6QAAAABPQSAwAAaplEqQAAAAkiABKPLYzrWGNDC27dW1hjQ4BkCfT0iUYlCBOyACEAIYAQ=="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:23.574",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "schemaUrl": "https://opentelemetry.io/schemas/1.30.0"
+      },
+      "timeUnixNano": 0,
+      "observedTimeUnixNano": 1788429563574020900,
+      "severityNumber": 0,
+      "severityText": "",
+      "body": {
+        "content": [
+          {
+            "text": "My name is Alex and I just bought a Mechanical Keyboard"
+          }
+        ]
+      },
+      "attributes": {
+        "gen_ai.system": "aws.bedrock"
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "5fade0c4b3bc501f",
+      "eventName": "gen_ai.user.message"
+    },
+    "@ptr": "Ct4BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjUaGAIGp2dx6QAAAABPQSAwAAaplEqQAAAAkiABKPLYzrWGNDC27dW1hjQ4BkCfT0iUYlCBOyACEAMYAQ=="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:23.574",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "schemaUrl": "https://opentelemetry.io/schemas/1.30.0"
+      },
+      "timeUnixNano": 0,
+      "observedTimeUnixNano": 1788429563574047200,
+      "severityNumber": 0,
+      "severityText": "",
+      "body": {
+        "content": [
+          {
+            "text": "<user_context>Alex bought a Mechanical Keyboard on 2026-09-03.\nThe user's name is Alex.\n<topic name=\"User Introduction\">\nThe user identified themselves as Alex and stated they just bought a Mechanical Keyboard. This message was recorded on 2026-09-03 at 09:55:29 UTC (tracking_id: 34fcb431-cbfd-4ee6-b6f0-a5448ef43107).\n</topic></user_context>"
+          },
+          {
+            "text": "What did I just buy?"
+          }
+        ]
+      },
+      "attributes": {
+        "gen_ai.system": "aws.bedrock"
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "5fade0c4b3bc501f",
+      "eventName": "gen_ai.user.message"
+    },
+    "@ptr": "Ct4BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjUaGAIGp2dx6QAAAABPQSAwAAaplEqQAAAAkiABKPLYzrWGNDC27dW1hjQ4BkCfT0iUYlCBOyACEAQYAQ=="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:29.503",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-east-1",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "telemetry.sdk.version": "1.44.0",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.19.0-aws"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "version": "0.65b0"
+      },
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "5fade0c4b3bc501f",
+      "parentSpanId": "fa61fec70a454957",
+      "flags": 256,
+      "name": "chat us.amazon.nova-micro-v1:0",
+      "kind": "CLIENT",
+      "startTimeUnixNano": 1788429563573912300,
+      "endTimeUnixNano": 1788429569503579600,
+      "durationNano": 5929667307,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "rpc.service": "Bedrock Runtime",
+        "aws.remote.resource.identifier": "us.amazon.nova-micro-v1:0",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "aws.remote.operation": "ConverseStream",
+        "gen_ai.provider.name": "aws.bedrock",
+        "server.address": "bedrock-runtime.us-east-1.amazonaws.com",
+        "aws.request_id": "6ffb662c-4daa-427e-8102-b979cfda0e72",
+        "aws.local.operation": "UnmappedOperation",
+        "aws.span.kind": "CLIENT",
+        "aws.auth.region": "us-east-1",
+        "rpc.method": "ConverseStream",
+        "server.port": 443,
+        "gen_ai.request.model": "us.amazon.nova-micro-v1:0",
+        "http.response.status_code": 429,
+        "gen_ai.system": "aws.bedrock",
+        "telemetry.extended": "true",
+        "aws.genai.span_kind": "LLM",
+        "rpc.system": "aws-api",
+        "aws.remote.service": "AWS::BedrockRuntime",
+        "http.status_code": 429,
+        "error.type": "ThrottlingException",
+        "aws.region": "us-east-1",
+        "aws.remote.resource.type": "AWS::Bedrock::Model",
+        "gen_ai.operation.name": "chat",
+        "retry_attempts": 4,
+        "PlatformType": "AWS::BedrockAgentCore",
+        "aws.auth.account.access_key": "ASIAUQBBFNOS7QQRUOM6",
+        "session.id": "45b9e2b3-720e-49a2-9ce3-9035ddbcab0a"
+      },
+      "status": {
+        "message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.",
+        "code": "ERROR"
+      }
+    },
+    "@ptr": "Ct4BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjUaGAIGp5D3bgAAAAAr3QYVAAaplEsgAAAC4iABKN+b1rWGNDDim9a1hjQ4AkDYRkj8b1CtSSACEAAYAQ=="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:29.506",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-east-1",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "telemetry.sdk.version": "1.44.0",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.19.0-aws"
+        }
+      },
+      "scope": {
+        "name": "strands.telemetry.tracer",
+        "version": ""
+      },
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "fa61fec70a454957",
+      "parentSpanId": "72416b0c41f9e898",
+      "flags": 256,
+      "name": "chat",
+      "kind": "INTERNAL",
+      "startTimeUnixNano": 1788429563573268700,
+      "endTimeUnixNano": 1788429569506425900,
+      "durationNano": 5933157015,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "gen_ai.operation.name": "chat",
+        "gen_ai.event.end_time": "2026-09-03T09:59:29.504003+00:00",
+        "gen_ai.request.model": "us.amazon.nova-micro-v1:0",
+        "aws.genai.span_kind": "LLM",
+        "gen_ai.event.start_time": "2026-09-03T09:59:23.573310+00:00",
+        "PlatformType": "AWS::BedrockAgentCore",
+        "session.id": "45b9e2b3-720e-49a2-9ce3-9035ddbcab0a",
+        "gen_ai.system": "strands-agents",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "gen_ai.provider.name": "strands-agents"
+      },
+      "events": [
+        {
+          "timeUnixNano": 1788429563573370600,
+          "name": "gen_ai.system.message",
+          "attributes": {
+            "content": "[{\"text\": \"You are a helpful and professional customer support assistant for an e-commerce company.\\nYour role is to:\\n- Provide accurate information using the tools available to you\\n- Be friendly, patient, and understanding with customers\\n- Always offer additional help after answering questions\\n- If you can't help with something, direct customers to the appropriate contact\\n\\nYou have access to tools for looking up return policies, searching product information, and more.\\nAdditional tools may be available at runtime — always check your full tool list and use the most appropriate tool for each customer request.\\nAlways use tools to get accurate, up-to-date information rather than guessing.\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1788429563573390300,
+          "name": "gen_ai.user.message",
+          "attributes": {
+            "content": "[{\"text\": \"My name is Alex and I just bought a Mechanical Keyboard\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1788429563573408000,
+          "name": "gen_ai.user.message",
+          "attributes": {
+            "content": "[{\"text\": \"<user_context>Alex bought a Mechanical Keyboard on 2026-09-03.\\nThe user's name is Alex.\\n<topic name=\\\"User Introduction\\\">\\nThe user identified themselves as Alex and stated they just bought a Mechanical Keyboard. This message was recorded on 2026-09-03 at 09:55:29 UTC (tracking_id: 34fcb431-cbfd-4ee6-b6f0-a5448ef43107).\\n</topic></user_context>\"}, {\"text\": \"What did I just buy?\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1788429569506417700,
+          "name": "exception",
+          "attributes": {
+            "exception.escaped": "False",
+            "exception.stacktrace": "Traceback (most recent call last):\n  File \"/var/task/strands/models/bedrock.py\", line 1400, in _stream\n    response = converse_method(**request)\n  File \"/var/task/botocore/client.py\", line 606, in _api_call\n    return self._make_api_call(operation_name, kwargs)\n           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/task/amazon/opentelemetry/distro/patches/_botocore_patches.py\", line 291, in patched_api_call\n    result = original_func(*args, **kwargs)\n  File \"/var/task/botocore/context.py\", line 123, in wrapper\n    return func(*args, **kwargs)\n  File \"/var/task/botocore/client.py\", line 1094, in _make_api_call\n    raise error_class(parsed_response, operation_name)\nbotocore.errorfactory.ThrottlingException: An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/var/task/strands/event_loop/event_loop.py\", line 691, in terminal\n    async for event in stream_messages(\n    ...<11 lines>...\n        yield event\n  File \"/var/task/strands/event_loop/streaming.py\", line 563, in stream_messages\n    async for event in process_stream(chunks, start_time, cancel_signal):\n        yield event\n  File \"/var/task/strands/event_loop/streaming.py\", line 454, in process_stream\n    async for chunk in chunks:\n    ...<36 lines>...\n            handle_redact_content(chunk[\"redactContent\"], state)\n  File \"/var/task/strands/models/bedrock.py\", line 1350, in stream\n    await task\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/asyncio/threads.py\", line 25, in to_thread\n    return await loop.run_in_executor(None, func_call)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/concurrent/futures/thread.py\", line 86, in run\n    result = ctx.run(self.task)\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/concurrent/futures/thread.py\", line 73, in run\n    return fn(*args, **kwargs)\n  File \"/var/task/opentelemetry/instrumentation/threading/__init__.py\", line 161, in wrapped_func\n    return original_func(*func_args, **func_kwargs)\n  File \"/var/task/strands/models/bedrock.py\", line 1468, in _stream\n    raise ModelThrottledException(error_message) from e\nstrands.types.exceptions.ModelThrottledException: An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.\n",
+            "exception.type": "strands.types.exceptions.ModelThrottledException",
+            "exception.message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again."
+          }
+        }
+      ],
+      "status": {
+        "message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.",
+        "code": "ERROR"
+      }
+    },
+    "@ptr": "Ct4BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjUaGAIGp5D3bgAAAAAr3QYVAAaplEsgAAAC4iABKN+b1rWGNDDim9a1hjQ4AkDYRkj8b1CtSSACEAEYAQ=="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:37.508",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "schemaUrl": "https://opentelemetry.io/schemas/1.30.0"
+      },
+      "timeUnixNano": 0,
+      "observedTimeUnixNano": 1788429577508717600,
+      "severityNumber": 0,
+      "severityText": "",
+      "body": {
+        "content": [
+          {
+            "text": "<user_context>Alex bought a Mechanical Keyboard on 2026-09-03.\nThe user's name is Alex.\n<topic name=\"User Introduction\">\nThe user identified themselves as Alex and stated they just bought a Mechanical Keyboard. This message was recorded on 2026-09-03 at 09:55:29 UTC (tracking_id: 34fcb431-cbfd-4ee6-b6f0-a5448ef43107).\n</topic></user_context>"
+          },
+          {
+            "text": "What did I just buy?"
+          }
+        ]
+      },
+      "attributes": {
+        "gen_ai.system": "aws.bedrock"
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "c2f448e25c3b1af7",
+      "eventName": "gen_ai.user.message"
+    },
+    "@ptr": "Ct8BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjYaGAIGqXEjtAAAAAAm+m4XAAaplE2QAAACQiABKKTa1rWGNDD2gde1hjQ4BUDSbUjHgAFQplYgAhACGAE="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:37.508",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "schemaUrl": "https://opentelemetry.io/schemas/1.30.0"
+      },
+      "timeUnixNano": 0,
+      "observedTimeUnixNano": 1788429577508689000,
+      "severityNumber": 0,
+      "severityText": "",
+      "body": {
+        "content": [
+          {
+            "text": "My name is Alex and I just bought a Mechanical Keyboard"
+          }
+        ]
+      },
+      "attributes": {
+        "gen_ai.system": "aws.bedrock"
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "c2f448e25c3b1af7",
+      "eventName": "gen_ai.user.message"
+    },
+    "@ptr": "Ct8BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjYaGAIGqXEjtAAAAAAm+m4XAAaplE2QAAACQiABKKTa1rWGNDD2gde1hjQ4BUDSbUjHgAFQplYgAhABGAE="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:37.508",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "schemaUrl": "https://opentelemetry.io/schemas/1.30.0"
+      },
+      "timeUnixNano": 0,
+      "observedTimeUnixNano": 1788429577508620800,
+      "severityNumber": 0,
+      "severityText": "",
+      "body": {
+        "content": [
+          {
+            "text": "You are a helpful and professional customer support assistant for an e-commerce company.\nYour role is to:\n- Provide accurate information using the tools available to you\n- Be friendly, patient, and understanding with customers\n- Always offer additional help after answering questions\n- If you can't help with something, direct customers to the appropriate contact\n\nYou have access to tools for looking up return policies, searching product information, and more.\nAdditional tools may be available at runtime — always check your full tool list and use the most appropriate tool for each customer request.\nAlways use tools to get accurate, up-to-date information rather than guessing."
+          }
+        ]
+      },
+      "attributes": {
+        "gen_ai.system": "aws.bedrock"
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "c2f448e25c3b1af7",
+      "eventName": "gen_ai.system.message"
+    },
+    "@ptr": "Ct8BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjYaGAIGqXEjtAAAAAAm+m4XAAaplE2QAAACQiABKKTa1rWGNDD2gde1hjQ4BUDSbUjHgAFQplYgAhAAGAE="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:42.579",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-east-1",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "telemetry.sdk.version": "1.44.0",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.19.0-aws"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "version": "0.65b0"
+      },
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "c2f448e25c3b1af7",
+      "parentSpanId": "f51d6b68769abf95",
+      "flags": 256,
+      "name": "chat us.amazon.nova-micro-v1:0",
+      "kind": "CLIENT",
+      "startTimeUnixNano": 1788429577508570400,
+      "endTimeUnixNano": 1788429582579109000,
+      "durationNano": 5070538781,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "rpc.service": "Bedrock Runtime",
+        "aws.remote.resource.identifier": "us.amazon.nova-micro-v1:0",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "aws.remote.operation": "ConverseStream",
+        "gen_ai.provider.name": "aws.bedrock",
+        "server.address": "bedrock-runtime.us-east-1.amazonaws.com",
+        "aws.request_id": "042f1b4e-ed54-4e68-bf5a-2ace3cc5413d",
+        "aws.local.operation": "UnmappedOperation",
+        "aws.span.kind": "CLIENT",
+        "aws.auth.region": "us-east-1",
+        "rpc.method": "ConverseStream",
+        "server.port": 443,
+        "gen_ai.request.model": "us.amazon.nova-micro-v1:0",
+        "http.response.status_code": 429,
+        "gen_ai.system": "aws.bedrock",
+        "telemetry.extended": "true",
+        "aws.genai.span_kind": "LLM",
+        "rpc.system": "aws-api",
+        "aws.remote.service": "AWS::BedrockRuntime",
+        "http.status_code": 429,
+        "error.type": "ThrottlingException",
+        "aws.region": "us-east-1",
+        "aws.remote.resource.type": "AWS::Bedrock::Model",
+        "gen_ai.operation.name": "chat",
+        "retry_attempts": 4,
+        "PlatformType": "AWS::BedrockAgentCore",
+        "aws.auth.account.access_key": "ASIAUQBBFNOS7QQRUOM6",
+        "session.id": "45b9e2b3-720e-49a2-9ce3-9035ddbcab0a"
+      },
+      "status": {
+        "message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.",
+        "code": "ERROR"
+      }
+    },
+    "@ptr": "Ct8BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjYaGAIGqXEjtAAAAAAm+m4XAAaplE2QAAACQiABKKTa1rWGNDD2gde1hjQ4BUDSbUjHgAFQplYgAhADGAE="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:42.582",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-east-1",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "telemetry.sdk.version": "1.44.0",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.19.0-aws"
+        }
+      },
+      "scope": {
+        "name": "strands.telemetry.tracer",
+        "version": ""
+      },
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "f51d6b68769abf95",
+      "parentSpanId": "72416b0c41f9e898",
+      "flags": 256,
+      "name": "chat",
+      "kind": "INTERNAL",
+      "startTimeUnixNano": 1788429577507876900,
+      "endTimeUnixNano": 1788429582582013200,
+      "durationNano": 5074136299,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "gen_ai.operation.name": "chat",
+        "gen_ai.event.end_time": "2026-09-03T09:59:42.579537+00:00",
+        "gen_ai.request.model": "us.amazon.nova-micro-v1:0",
+        "aws.genai.span_kind": "LLM",
+        "gen_ai.event.start_time": "2026-09-03T09:59:37.507919+00:00",
+        "PlatformType": "AWS::BedrockAgentCore",
+        "session.id": "45b9e2b3-720e-49a2-9ce3-9035ddbcab0a",
+        "gen_ai.system": "strands-agents",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "gen_ai.provider.name": "strands-agents"
+      },
+      "events": [
+        {
+          "timeUnixNano": 1788429577507981300,
+          "name": "gen_ai.system.message",
+          "attributes": {
+            "content": "[{\"text\": \"You are a helpful and professional customer support assistant for an e-commerce company.\\nYour role is to:\\n- Provide accurate information using the tools available to you\\n- Be friendly, patient, and understanding with customers\\n- Always offer additional help after answering questions\\n- If you can't help with something, direct customers to the appropriate contact\\n\\nYou have access to tools for looking up return policies, searching product information, and more.\\nAdditional tools may be available at runtime — always check your full tool list and use the most appropriate tool for each customer request.\\nAlways use tools to get accurate, up-to-date information rather than guessing.\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1788429577508002000,
+          "name": "gen_ai.user.message",
+          "attributes": {
+            "content": "[{\"text\": \"My name is Alex and I just bought a Mechanical Keyboard\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1788429577508020700,
+          "name": "gen_ai.user.message",
+          "attributes": {
+            "content": "[{\"text\": \"<user_context>Alex bought a Mechanical Keyboard on 2026-09-03.\\nThe user's name is Alex.\\n<topic name=\\\"User Introduction\\\">\\nThe user identified themselves as Alex and stated they just bought a Mechanical Keyboard. This message was recorded on 2026-09-03 at 09:55:29 UTC (tracking_id: 34fcb431-cbfd-4ee6-b6f0-a5448ef43107).\\n</topic></user_context>\"}, {\"text\": \"What did I just buy?\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1788429582582006000,
+          "name": "exception",
+          "attributes": {
+            "exception.escaped": "False",
+            "exception.stacktrace": "Traceback (most recent call last):\n  File \"/var/task/strands/models/bedrock.py\", line 1400, in _stream\n    response = converse_method(**request)\n  File \"/var/task/botocore/client.py\", line 606, in _api_call\n    return self._make_api_call(operation_name, kwargs)\n           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/task/amazon/opentelemetry/distro/patches/_botocore_patches.py\", line 291, in patched_api_call\n    result = original_func(*args, **kwargs)\n  File \"/var/task/botocore/context.py\", line 123, in wrapper\n    return func(*args, **kwargs)\n  File \"/var/task/botocore/client.py\", line 1094, in _make_api_call\n    raise error_class(parsed_response, operation_name)\nbotocore.errorfactory.ThrottlingException: An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/var/task/strands/event_loop/event_loop.py\", line 691, in terminal\n    async for event in stream_messages(\n    ...<11 lines>...\n        yield event\n  File \"/var/task/strands/event_loop/streaming.py\", line 563, in stream_messages\n    async for event in process_stream(chunks, start_time, cancel_signal):\n        yield event\n  File \"/var/task/strands/event_loop/streaming.py\", line 454, in process_stream\n    async for chunk in chunks:\n    ...<36 lines>...\n            handle_redact_content(chunk[\"redactContent\"], state)\n  File \"/var/task/strands/models/bedrock.py\", line 1350, in stream\n    await task\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/asyncio/threads.py\", line 25, in to_thread\n    return await loop.run_in_executor(None, func_call)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/concurrent/futures/thread.py\", line 86, in run\n    result = ctx.run(self.task)\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/concurrent/futures/thread.py\", line 73, in run\n    return fn(*args, **kwargs)\n  File \"/var/task/opentelemetry/instrumentation/threading/__init__.py\", line 161, in wrapped_func\n    return original_func(*func_args, **func_kwargs)\n  File \"/var/task/strands/models/bedrock.py\", line 1468, in _stream\n    raise ModelThrottledException(error_message) from e\nstrands.types.exceptions.ModelThrottledException: An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.\n",
+            "exception.type": "strands.types.exceptions.ModelThrottledException",
+            "exception.message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again."
+          }
+        }
+      ],
+      "status": {
+        "message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.",
+        "code": "ERROR"
+      }
+    },
+    "@ptr": "Ct8BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjYaGAIGqXEjtAAAAAAm+m4XAAaplE2QAAACQiABKKTa1rWGNDD2gde1hjQ4BUDSbUjHgAFQplYgAhAEGAE="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:58.590",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "schemaUrl": "https://opentelemetry.io/schemas/1.30.0"
+      },
+      "timeUnixNano": 0,
+      "observedTimeUnixNano": 1788429598590871300,
+      "severityNumber": 0,
+      "severityText": "",
+      "body": {
+        "content": [
+          {
+            "text": "<user_context>Alex bought a Mechanical Keyboard on 2026-09-03.\nThe user's name is Alex.\n<topic name=\"User Introduction\">\nThe user identified themselves as Alex and stated they just bought a Mechanical Keyboard. This message was recorded on 2026-09-03 at 09:55:29 UTC (tracking_id: 34fcb431-cbfd-4ee6-b6f0-a5448ef43107).\n</topic></user_context>"
+          },
+          {
+            "text": "What did I just buy?"
+          }
+        ]
+      },
+      "attributes": {
+        "gen_ai.system": "aws.bedrock"
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "2e7255ec69a5d66a",
+      "eventName": "gen_ai.user.message"
+    },
+    "@ptr": "Ct4BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjUaGAIGp0D8fgAAAABL1N/WAAaplFCwAAAB4iABKP7+17WGNDD+/te1hjQ4A0D6JkiaMVCNICACEAIYAQ=="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:58.590",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "schemaUrl": "https://opentelemetry.io/schemas/1.30.0"
+      },
+      "timeUnixNano": 0,
+      "observedTimeUnixNano": 1788429598590845400,
+      "severityNumber": 0,
+      "severityText": "",
+      "body": {
+        "content": [
+          {
+            "text": "My name is Alex and I just bought a Mechanical Keyboard"
+          }
+        ]
+      },
+      "attributes": {
+        "gen_ai.system": "aws.bedrock"
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "2e7255ec69a5d66a",
+      "eventName": "gen_ai.user.message"
+    },
+    "@ptr": "Ct4BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjUaGAIGp0D8fgAAAABL1N/WAAaplFCwAAAB4iABKP7+17WGNDD+/te1hjQ4A0D6JkiaMVCNICACEAEYAQ=="
+  },
+  {
+    "@timestamp": "2026-09-03 09:59:58.590",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "schemaUrl": "https://opentelemetry.io/schemas/1.30.0"
+      },
+      "timeUnixNano": 0,
+      "observedTimeUnixNano": 1788429598590777600,
+      "severityNumber": 0,
+      "severityText": "",
+      "body": {
+        "content": [
+          {
+            "text": "You are a helpful and professional customer support assistant for an e-commerce company.\nYour role is to:\n- Provide accurate information using the tools available to you\n- Be friendly, patient, and understanding with customers\n- Always offer additional help after answering questions\n- If you can't help with something, direct customers to the appropriate contact\n\nYou have access to tools for looking up return policies, searching product information, and more.\nAdditional tools may be available at runtime — always check your full tool list and use the most appropriate tool for each customer request.\nAlways use tools to get accurate, up-to-date information rather than guessing."
+          }
+        ]
+      },
+      "attributes": {
+        "gen_ai.system": "aws.bedrock"
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "2e7255ec69a5d66a",
+      "eventName": "gen_ai.system.message"
+    },
+    "@ptr": "Ct4BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjUaGAIGp0D8fgAAAABL1N/WAAaplFCwAAAB4iABKP7+17WGNDD+/te1hjQ4A0D6JkiaMVCNICACEAAYAQ=="
+  },
+  {
+    "@timestamp": "2026-09-03 10:00:09.138",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-east-1",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "telemetry.sdk.version": "1.44.0",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.19.0-aws"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "version": "0.65b0"
+      },
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "2e7255ec69a5d66a",
+      "parentSpanId": "42511698c612f085",
+      "flags": 256,
+      "name": "chat us.amazon.nova-micro-v1:0",
+      "kind": "CLIENT",
+      "startTimeUnixNano": 1788429598590731500,
+      "endTimeUnixNano": 1788429609138623000,
+      "durationNano": 10547891256,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "rpc.service": "Bedrock Runtime",
+        "aws.remote.resource.identifier": "us.amazon.nova-micro-v1:0",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "aws.remote.operation": "ConverseStream",
+        "gen_ai.provider.name": "aws.bedrock",
+        "server.address": "bedrock-runtime.us-east-1.amazonaws.com",
+        "aws.request_id": "13a69121-cf5a-489a-a8b6-3c584bd8f790",
+        "aws.local.operation": "UnmappedOperation",
+        "aws.span.kind": "CLIENT",
+        "aws.auth.region": "us-east-1",
+        "rpc.method": "ConverseStream",
+        "server.port": 443,
+        "gen_ai.request.model": "us.amazon.nova-micro-v1:0",
+        "http.response.status_code": 429,
+        "gen_ai.system": "aws.bedrock",
+        "telemetry.extended": "true",
+        "aws.genai.span_kind": "LLM",
+        "rpc.system": "aws-api",
+        "aws.remote.service": "AWS::BedrockRuntime",
+        "http.status_code": 429,
+        "error.type": "ThrottlingException",
+        "aws.region": "us-east-1",
+        "aws.remote.resource.type": "AWS::Bedrock::Model",
+        "gen_ai.operation.name": "chat",
+        "retry_attempts": 4,
+        "PlatformType": "AWS::BedrockAgentCore",
+        "aws.auth.account.access_key": "ASIAUQBBFNOS7QQRUOM6",
+        "session.id": "45b9e2b3-720e-49a2-9ce3-9035ddbcab0a"
+      },
+      "status": {
+        "message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.",
+        "code": "ERROR"
+      }
+    },
+    "@ptr": "Ct8BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjYaGAIGp/j2sgAAAAC9ZiTeAAaplEuAAAADIiABKJ6G1bWGNDC10di1hjQ4B0DdwgFIwn5QhFcgAhAFGAE="
+  },
+  {
+    "@timestamp": "2026-09-03 10:00:09.141",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-east-1",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "telemetry.sdk.version": "1.44.0",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.19.0-aws"
+        }
+      },
+      "scope": {
+        "name": "strands.telemetry.tracer",
+        "version": ""
+      },
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "42511698c612f085",
+      "parentSpanId": "72416b0c41f9e898",
+      "flags": 256,
+      "name": "chat",
+      "kind": "INTERNAL",
+      "startTimeUnixNano": 1788429598590080300,
+      "endTimeUnixNano": 1788429609141538000,
+      "durationNano": 10551457812,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "gen_ai.operation.name": "chat",
+        "gen_ai.event.end_time": "2026-09-03T10:00:09.139094+00:00",
+        "gen_ai.request.model": "us.amazon.nova-micro-v1:0",
+        "aws.genai.span_kind": "LLM",
+        "gen_ai.event.start_time": "2026-09-03T09:59:58.590123+00:00",
+        "PlatformType": "AWS::BedrockAgentCore",
+        "session.id": "45b9e2b3-720e-49a2-9ce3-9035ddbcab0a",
+        "gen_ai.system": "strands-agents",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "gen_ai.provider.name": "strands-agents"
+      },
+      "events": [
+        {
+          "timeUnixNano": 1788429598590186200,
+          "name": "gen_ai.system.message",
+          "attributes": {
+            "content": "[{\"text\": \"You are a helpful and professional customer support assistant for an e-commerce company.\\nYour role is to:\\n- Provide accurate information using the tools available to you\\n- Be friendly, patient, and understanding with customers\\n- Always offer additional help after answering questions\\n- If you can't help with something, direct customers to the appropriate contact\\n\\nYou have access to tools for looking up return policies, searching product information, and more.\\nAdditional tools may be available at runtime — always check your full tool list and use the most appropriate tool for each customer request.\\nAlways use tools to get accurate, up-to-date information rather than guessing.\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1788429598590206000,
+          "name": "gen_ai.user.message",
+          "attributes": {
+            "content": "[{\"text\": \"My name is Alex and I just bought a Mechanical Keyboard\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1788429598590223400,
+          "name": "gen_ai.user.message",
+          "attributes": {
+            "content": "[{\"text\": \"<user_context>Alex bought a Mechanical Keyboard on 2026-09-03.\\nThe user's name is Alex.\\n<topic name=\\\"User Introduction\\\">\\nThe user identified themselves as Alex and stated they just bought a Mechanical Keyboard. This message was recorded on 2026-09-03 at 09:55:29 UTC (tracking_id: 34fcb431-cbfd-4ee6-b6f0-a5448ef43107).\\n</topic></user_context>\"}, {\"text\": \"What did I just buy?\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1788429609141530600,
+          "name": "exception",
+          "attributes": {
+            "exception.escaped": "False",
+            "exception.stacktrace": "Traceback (most recent call last):\n  File \"/var/task/strands/models/bedrock.py\", line 1400, in _stream\n    response = converse_method(**request)\n  File \"/var/task/botocore/client.py\", line 606, in _api_call\n    return self._make_api_call(operation_name, kwargs)\n           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/task/amazon/opentelemetry/distro/patches/_botocore_patches.py\", line 291, in patched_api_call\n    result = original_func(*args, **kwargs)\n  File \"/var/task/botocore/context.py\", line 123, in wrapper\n    return func(*args, **kwargs)\n  File \"/var/task/botocore/client.py\", line 1094, in _make_api_call\n    raise error_class(parsed_response, operation_name)\nbotocore.errorfactory.ThrottlingException: An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/var/task/strands/event_loop/event_loop.py\", line 691, in terminal\n    async for event in stream_messages(\n    ...<11 lines>...\n        yield event\n  File \"/var/task/strands/event_loop/streaming.py\", line 563, in stream_messages\n    async for event in process_stream(chunks, start_time, cancel_signal):\n        yield event\n  File \"/var/task/strands/event_loop/streaming.py\", line 454, in process_stream\n    async for chunk in chunks:\n    ...<36 lines>...\n            handle_redact_content(chunk[\"redactContent\"], state)\n  File \"/var/task/strands/models/bedrock.py\", line 1350, in stream\n    await task\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/asyncio/threads.py\", line 25, in to_thread\n    return await loop.run_in_executor(None, func_call)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/concurrent/futures/thread.py\", line 86, in run\n    result = ctx.run(self.task)\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/concurrent/futures/thread.py\", line 73, in run\n    return fn(*args, **kwargs)\n  File \"/var/task/opentelemetry/instrumentation/threading/__init__.py\", line 161, in wrapped_func\n    return original_func(*func_args, **func_kwargs)\n  File \"/var/task/strands/models/bedrock.py\", line 1468, in _stream\n    raise ModelThrottledException(error_message) from e\nstrands.types.exceptions.ModelThrottledException: An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.\n",
+            "exception.type": "strands.types.exceptions.ModelThrottledException",
+            "exception.message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again."
+          }
+        }
+      ],
+      "status": {
+        "message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.",
+        "code": "ERROR"
+      }
+    },
+    "@ptr": "Ct8BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjYaGAIGp/j2sgAAAAC9ZiTeAAaplEuAAAADIiABKJ6G1bWGNDC10di1hjQ4B0DdwgFIwn5QhFcgAhAGGAE="
+  },
+  {
+    "@timestamp": "2026-09-03 10:00:41.148",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "schemaUrl": "https://opentelemetry.io/schemas/1.30.0"
+      },
+      "timeUnixNano": 0,
+      "observedTimeUnixNano": 1788429641148148700,
+      "severityNumber": 0,
+      "severityText": "",
+      "body": {
+        "content": [
+          {
+            "text": "<user_context>Alex bought a Mechanical Keyboard on 2026-09-03.\nThe user's name is Alex.\n<topic name=\"User Introduction\">\nThe user identified themselves as Alex and stated they just bought a Mechanical Keyboard. This message was recorded on 2026-09-03 at 09:55:29 UTC (tracking_id: 34fcb431-cbfd-4ee6-b6f0-a5448ef43107).\n</topic></user_context>"
+          },
+          {
+            "text": "What did I just buy?"
+          }
+        ]
+      },
+      "attributes": {
+        "gen_ai.system": "aws.bedrock"
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "510cb2089b9c9304",
+      "eventName": "gen_ai.user.message"
+    },
+    "@ptr": "Ct8BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjYaGAIGp/j2sgAAAAC9Zx+RAAaplFMAAAADIiABKLzL2rWGNDDV9Nq1hjQ4BUDSbUjHgAFQplYgAhACGAE="
+  },
+  {
+    "@timestamp": "2026-09-03 10:00:41.148",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "schemaUrl": "https://opentelemetry.io/schemas/1.30.0"
+      },
+      "timeUnixNano": 0,
+      "observedTimeUnixNano": 1788429641148055000,
+      "severityNumber": 0,
+      "severityText": "",
+      "body": {
+        "content": [
+          {
+            "text": "You are a helpful and professional customer support assistant for an e-commerce company.\nYour role is to:\n- Provide accurate information using the tools available to you\n- Be friendly, patient, and understanding with customers\n- Always offer additional help after answering questions\n- If you can't help with something, direct customers to the appropriate contact\n\nYou have access to tools for looking up return policies, searching product information, and more.\nAdditional tools may be available at runtime — always check your full tool list and use the most appropriate tool for each customer request.\nAlways use tools to get accurate, up-to-date information rather than guessing."
+          }
+        ]
+      },
+      "attributes": {
+        "gen_ai.system": "aws.bedrock"
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "510cb2089b9c9304",
+      "eventName": "gen_ai.system.message"
+    },
+    "@ptr": "Ct8BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjYaGAIGp/j2sgAAAAC9Zx+RAAaplFMAAAADIiABKLzL2rWGNDDV9Nq1hjQ4BUDSbUjHgAFQplYgAhAAGAE="
+  },
+  {
+    "@timestamp": "2026-09-03 10:00:41.148",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "schemaUrl": "https://opentelemetry.io/schemas/1.30.0"
+      },
+      "timeUnixNano": 0,
+      "observedTimeUnixNano": 1788429641148122000,
+      "severityNumber": 0,
+      "severityText": "",
+      "body": {
+        "content": [
+          {
+            "text": "My name is Alex and I just bought a Mechanical Keyboard"
+          }
+        ]
+      },
+      "attributes": {
+        "gen_ai.system": "aws.bedrock"
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "510cb2089b9c9304",
+      "eventName": "gen_ai.user.message"
+    },
+    "@ptr": "Ct8BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjYaGAIGp/j2sgAAAAC9Zx+RAAaplFMAAAADIiABKLzL2rWGNDDV9Nq1hjQ4BUDSbUjHgAFQplYgAhABGAE="
+  },
+  {
+    "@timestamp": "2026-09-03 10:00:46.418",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-east-1",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "telemetry.sdk.version": "1.44.0",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.19.0-aws"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "version": "0.65b0"
+      },
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "510cb2089b9c9304",
+      "parentSpanId": "64621ac511873ad3",
+      "flags": 256,
+      "name": "chat us.amazon.nova-micro-v1:0",
+      "kind": "CLIENT",
+      "startTimeUnixNano": 1788429641148007200,
+      "endTimeUnixNano": 1788429646418046500,
+      "durationNano": 5270039492,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "rpc.service": "Bedrock Runtime",
+        "aws.remote.resource.identifier": "us.amazon.nova-micro-v1:0",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "aws.remote.operation": "ConverseStream",
+        "gen_ai.provider.name": "aws.bedrock",
+        "server.address": "bedrock-runtime.us-east-1.amazonaws.com",
+        "aws.request_id": "cd2adf66-8a6a-4353-aa96-c077d3586db6",
+        "aws.local.operation": "UnmappedOperation",
+        "aws.span.kind": "CLIENT",
+        "aws.auth.region": "us-east-1",
+        "rpc.method": "ConverseStream",
+        "server.port": 443,
+        "gen_ai.request.model": "us.amazon.nova-micro-v1:0",
+        "http.response.status_code": 429,
+        "gen_ai.system": "aws.bedrock",
+        "telemetry.extended": "true",
+        "aws.genai.span_kind": "LLM",
+        "rpc.system": "aws-api",
+        "aws.remote.service": "AWS::BedrockRuntime",
+        "http.status_code": 429,
+        "error.type": "ThrottlingException",
+        "aws.region": "us-east-1",
+        "aws.remote.resource.type": "AWS::Bedrock::Model",
+        "gen_ai.operation.name": "chat",
+        "retry_attempts": 4,
+        "PlatformType": "AWS::BedrockAgentCore",
+        "aws.auth.account.access_key": "ASIAUQBBFNOS7QQRUOM6",
+        "session.id": "45b9e2b3-720e-49a2-9ce3-9035ddbcab0a"
+      },
+      "status": {
+        "message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.",
+        "code": "ERROR"
+      }
+    },
+    "@ptr": "Ct8BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjYaGAIGp/j2sgAAAAC9Zx+RAAaplFMAAAADIiABKLzL2rWGNDDV9Nq1hjQ4BUDSbUjHgAFQplYgAhADGAE="
+  },
+  {
+    "@timestamp": "2026-09-03 10:00:46.421",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-east-1",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "telemetry.sdk.version": "1.44.0",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.19.0-aws"
+        }
+      },
+      "scope": {
+        "name": "strands.telemetry.tracer",
+        "version": ""
+      },
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "64621ac511873ad3",
+      "parentSpanId": "72416b0c41f9e898",
+      "flags": 256,
+      "name": "chat",
+      "kind": "INTERNAL",
+      "startTimeUnixNano": 1788429641147328000,
+      "endTimeUnixNano": 1788429646421015800,
+      "durationNano": 5273687734,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "gen_ai.operation.name": "chat",
+        "gen_ai.event.end_time": "2026-09-03T10:00:46.418485+00:00",
+        "gen_ai.request.model": "us.amazon.nova-micro-v1:0",
+        "aws.genai.span_kind": "LLM",
+        "gen_ai.event.start_time": "2026-09-03T10:00:41.147368+00:00",
+        "PlatformType": "AWS::BedrockAgentCore",
+        "session.id": "45b9e2b3-720e-49a2-9ce3-9035ddbcab0a",
+        "gen_ai.system": "strands-agents",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "gen_ai.provider.name": "strands-agents"
+      },
+      "events": [
+        {
+          "timeUnixNano": 1788429641147427600,
+          "name": "gen_ai.system.message",
+          "attributes": {
+            "content": "[{\"text\": \"You are a helpful and professional customer support assistant for an e-commerce company.\\nYour role is to:\\n- Provide accurate information using the tools available to you\\n- Be friendly, patient, and understanding with customers\\n- Always offer additional help after answering questions\\n- If you can't help with something, direct customers to the appropriate contact\\n\\nYou have access to tools for looking up return policies, searching product information, and more.\\nAdditional tools may be available at runtime — always check your full tool list and use the most appropriate tool for each customer request.\\nAlways use tools to get accurate, up-to-date information rather than guessing.\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1788429641147448000,
+          "name": "gen_ai.user.message",
+          "attributes": {
+            "content": "[{\"text\": \"My name is Alex and I just bought a Mechanical Keyboard\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1788429641147465500,
+          "name": "gen_ai.user.message",
+          "attributes": {
+            "content": "[{\"text\": \"<user_context>Alex bought a Mechanical Keyboard on 2026-09-03.\\nThe user's name is Alex.\\n<topic name=\\\"User Introduction\\\">\\nThe user identified themselves as Alex and stated they just bought a Mechanical Keyboard. This message was recorded on 2026-09-03 at 09:55:29 UTC (tracking_id: 34fcb431-cbfd-4ee6-b6f0-a5448ef43107).\\n</topic></user_context>\"}, {\"text\": \"What did I just buy?\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1788429646421006800,
+          "name": "exception",
+          "attributes": {
+            "exception.escaped": "False",
+            "exception.stacktrace": "Traceback (most recent call last):\n  File \"/var/task/strands/models/bedrock.py\", line 1400, in _stream\n    response = converse_method(**request)\n  File \"/var/task/botocore/client.py\", line 606, in _api_call\n    return self._make_api_call(operation_name, kwargs)\n           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/task/amazon/opentelemetry/distro/patches/_botocore_patches.py\", line 291, in patched_api_call\n    result = original_func(*args, **kwargs)\n  File \"/var/task/botocore/context.py\", line 123, in wrapper\n    return func(*args, **kwargs)\n  File \"/var/task/botocore/client.py\", line 1094, in _make_api_call\n    raise error_class(parsed_response, operation_name)\nbotocore.errorfactory.ThrottlingException: An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/var/task/strands/event_loop/event_loop.py\", line 691, in terminal\n    async for event in stream_messages(\n    ...<11 lines>...\n        yield event\n  File \"/var/task/strands/event_loop/streaming.py\", line 563, in stream_messages\n    async for event in process_stream(chunks, start_time, cancel_signal):\n        yield event\n  File \"/var/task/strands/event_loop/streaming.py\", line 454, in process_stream\n    async for chunk in chunks:\n    ...<36 lines>...\n            handle_redact_content(chunk[\"redactContent\"], state)\n  File \"/var/task/strands/models/bedrock.py\", line 1350, in stream\n    await task\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/asyncio/threads.py\", line 25, in to_thread\n    return await loop.run_in_executor(None, func_call)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/concurrent/futures/thread.py\", line 86, in run\n    result = ctx.run(self.task)\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/concurrent/futures/thread.py\", line 73, in run\n    return fn(*args, **kwargs)\n  File \"/var/task/opentelemetry/instrumentation/threading/__init__.py\", line 161, in wrapped_func\n    return original_func(*func_args, **func_kwargs)\n  File \"/var/task/strands/models/bedrock.py\", line 1468, in _stream\n    raise ModelThrottledException(error_message) from e\nstrands.types.exceptions.ModelThrottledException: An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.\n",
+            "exception.type": "strands.types.exceptions.ModelThrottledException",
+            "exception.message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again."
+          }
+        }
+      ],
+      "status": {
+        "message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.",
+        "code": "ERROR"
+      }
+    },
+    "@ptr": "Ct8BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjYaGAIGp/j2sgAAAAC9Zx+RAAaplFMAAAADIiABKLzL2rWGNDDV9Nq1hjQ4BUDSbUjHgAFQplYgAhAEGAE="
+  },
+  {
+    "@timestamp": "2026-09-03 10:01:50.462",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "schemaUrl": "https://opentelemetry.io/schemas/1.30.0"
+      },
+      "timeUnixNano": 0,
+      "observedTimeUnixNano": 1788429710462369000,
+      "severityNumber": 0,
+      "severityText": "",
+      "body": {
+        "content": [
+          {
+            "text": "My name is Alex and I just bought a Mechanical Keyboard"
+          }
+        ]
+      },
+      "attributes": {
+        "gen_ai.system": "aws.bedrock"
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "fe3667340d325033",
+      "eventName": "gen_ai.user.message"
+    },
+    "@ptr": "Ct4BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjUaGAIGp5eOlgAAAAAxEUyaAAaplFXwAAADYiABKNzX2bWGNDD+6N61hjQ4BEC+NUj8YVDfOSACEAIYAQ=="
+  },
+  {
+    "@timestamp": "2026-09-03 10:01:50.462",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "schemaUrl": "https://opentelemetry.io/schemas/1.30.0"
+      },
+      "timeUnixNano": 0,
+      "observedTimeUnixNano": 1788429710462307800,
+      "severityNumber": 0,
+      "severityText": "",
+      "body": {
+        "content": [
+          {
+            "text": "You are a helpful and professional customer support assistant for an e-commerce company.\nYour role is to:\n- Provide accurate information using the tools available to you\n- Be friendly, patient, and understanding with customers\n- Always offer additional help after answering questions\n- If you can't help with something, direct customers to the appropriate contact\n\nYou have access to tools for looking up return policies, searching product information, and more.\nAdditional tools may be available at runtime — always check your full tool list and use the most appropriate tool for each customer request.\nAlways use tools to get accurate, up-to-date information rather than guessing."
+          }
+        ]
+      },
+      "attributes": {
+        "gen_ai.system": "aws.bedrock"
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "fe3667340d325033",
+      "eventName": "gen_ai.system.message"
+    },
+    "@ptr": "Ct4BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjUaGAIGp5eOlgAAAAAxEUyaAAaplFXwAAADYiABKNzX2bWGNDD+6N61hjQ4BEC+NUj8YVDfOSACEAEYAQ=="
+  },
+  {
+    "@timestamp": "2026-09-03 10:01:50.462",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "schemaUrl": "https://opentelemetry.io/schemas/1.30.0"
+      },
+      "timeUnixNano": 0,
+      "observedTimeUnixNano": 1788429710462395600,
+      "severityNumber": 0,
+      "severityText": "",
+      "body": {
+        "content": [
+          {
+            "text": "<user_context>Alex bought a Mechanical Keyboard on 2026-09-03.\nThe user's name is Alex.\n<topic name=\"User Introduction\">\nThe user identified themselves as Alex and stated they just bought a Mechanical Keyboard. This message was recorded on 2026-09-03 at 09:55:29 UTC (tracking_id: 34fcb431-cbfd-4ee6-b6f0-a5448ef43107).\n</topic></user_context>"
+          },
+          {
+            "text": "What did I just buy?"
+          }
+        ]
+      },
+      "attributes": {
+        "gen_ai.system": "aws.bedrock"
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "fe3667340d325033",
+      "eventName": "gen_ai.user.message"
+    },
+    "@ptr": "Ct4BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjUaGAIGp5eOlgAAAAAxEUyaAAaplFXwAAADYiABKNzX2bWGNDD+6N61hjQ4BEC+NUj8YVDfOSACEAMYAQ=="
+  },
+  {
+    "@timestamp": "2026-09-03 10:01:55.036",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-east-1",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "telemetry.sdk.version": "1.44.0",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.19.0-aws"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.botocore.bedrock-runtime",
+        "version": "0.65b0"
+      },
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "fe3667340d325033",
+      "parentSpanId": "4f2eda53bd87cc34",
+      "flags": 256,
+      "name": "chat us.amazon.nova-micro-v1:0",
+      "kind": "CLIENT",
+      "startTimeUnixNano": 1788429710462266000,
+      "endTimeUnixNano": 1788429715036755500,
+      "durationNano": 4574489400,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "rpc.service": "Bedrock Runtime",
+        "aws.remote.resource.identifier": "us.amazon.nova-micro-v1:0",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "aws.remote.operation": "ConverseStream",
+        "gen_ai.provider.name": "aws.bedrock",
+        "server.address": "bedrock-runtime.us-east-1.amazonaws.com",
+        "aws.request_id": "a76bbaae-f643-40c6-9276-013bb9365982",
+        "aws.local.operation": "UnmappedOperation",
+        "aws.span.kind": "CLIENT",
+        "aws.auth.region": "us-east-1",
+        "rpc.method": "ConverseStream",
+        "server.port": 443,
+        "gen_ai.request.model": "us.amazon.nova-micro-v1:0",
+        "http.response.status_code": 429,
+        "gen_ai.system": "aws.bedrock",
+        "telemetry.extended": "true",
+        "aws.genai.span_kind": "LLM",
+        "rpc.system": "aws-api",
+        "aws.remote.service": "AWS::BedrockRuntime",
+        "http.status_code": 429,
+        "error.type": "ThrottlingException",
+        "aws.region": "us-east-1",
+        "aws.remote.resource.type": "AWS::Bedrock::Model",
+        "gen_ai.operation.name": "chat",
+        "retry_attempts": 4,
+        "PlatformType": "AWS::BedrockAgentCore",
+        "aws.auth.account.access_key": "ASIAUQBBFNOS7QQRUOM6",
+        "session.id": "45b9e2b3-720e-49a2-9ce3-9035ddbcab0a"
+      },
+      "status": {
+        "message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.",
+        "code": "ERROR"
+      }
+    },
+    "@ptr": "CuABCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjcaGAIGqVUWWgAAAABDHo1RAAaplFMwAAADoiABKNyM37WGNDDzjN+1hjQ4BUDewQFIhaoBUMh3IAIQABgB"
+  },
+  {
+    "@timestamp": "2026-09-03 10:01:55.039",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-east-1",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "telemetry.sdk.version": "1.44.0",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.19.0-aws"
+        }
+      },
+      "scope": {
+        "name": "strands.telemetry.tracer",
+        "version": ""
+      },
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "4f2eda53bd87cc34",
+      "parentSpanId": "72416b0c41f9e898",
+      "flags": 256,
+      "name": "chat",
+      "kind": "INTERNAL",
+      "startTimeUnixNano": 1788429710461249300,
+      "endTimeUnixNano": 1788429715039640800,
+      "durationNano": 4578391558,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "gen_ai.operation.name": "chat",
+        "gen_ai.event.end_time": "2026-09-03T10:01:55.037171+00:00",
+        "gen_ai.request.model": "us.amazon.nova-micro-v1:0",
+        "aws.genai.span_kind": "LLM",
+        "gen_ai.event.start_time": "2026-09-03T10:01:50.461287+00:00",
+        "PlatformType": "AWS::BedrockAgentCore",
+        "session.id": "45b9e2b3-720e-49a2-9ce3-9035ddbcab0a",
+        "gen_ai.system": "strands-agents",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "gen_ai.provider.name": "strands-agents"
+      },
+      "events": [
+        {
+          "timeUnixNano": 1788429710461347300,
+          "name": "gen_ai.system.message",
+          "attributes": {
+            "content": "[{\"text\": \"You are a helpful and professional customer support assistant for an e-commerce company.\\nYour role is to:\\n- Provide accurate information using the tools available to you\\n- Be friendly, patient, and understanding with customers\\n- Always offer additional help after answering questions\\n- If you can't help with something, direct customers to the appropriate contact\\n\\nYou have access to tools for looking up return policies, searching product information, and more.\\nAdditional tools may be available at runtime — always check your full tool list and use the most appropriate tool for each customer request.\\nAlways use tools to get accurate, up-to-date information rather than guessing.\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1788429710461367300,
+          "name": "gen_ai.user.message",
+          "attributes": {
+            "content": "[{\"text\": \"My name is Alex and I just bought a Mechanical Keyboard\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1788429710461385000,
+          "name": "gen_ai.user.message",
+          "attributes": {
+            "content": "[{\"text\": \"<user_context>Alex bought a Mechanical Keyboard on 2026-09-03.\\nThe user's name is Alex.\\n<topic name=\\\"User Introduction\\\">\\nThe user identified themselves as Alex and stated they just bought a Mechanical Keyboard. This message was recorded on 2026-09-03 at 09:55:29 UTC (tracking_id: 34fcb431-cbfd-4ee6-b6f0-a5448ef43107).\\n</topic></user_context>\"}, {\"text\": \"What did I just buy?\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1788429715039633700,
+          "name": "exception",
+          "attributes": {
+            "exception.escaped": "False",
+            "exception.stacktrace": "Traceback (most recent call last):\n  File \"/var/task/strands/models/bedrock.py\", line 1400, in _stream\n    response = converse_method(**request)\n  File \"/var/task/botocore/client.py\", line 606, in _api_call\n    return self._make_api_call(operation_name, kwargs)\n           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/task/amazon/opentelemetry/distro/patches/_botocore_patches.py\", line 291, in patched_api_call\n    result = original_func(*args, **kwargs)\n  File \"/var/task/botocore/context.py\", line 123, in wrapper\n    return func(*args, **kwargs)\n  File \"/var/task/botocore/client.py\", line 1094, in _make_api_call\n    raise error_class(parsed_response, operation_name)\nbotocore.errorfactory.ThrottlingException: An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/var/task/strands/event_loop/event_loop.py\", line 691, in terminal\n    async for event in stream_messages(\n    ...<11 lines>...\n        yield event\n  File \"/var/task/strands/event_loop/streaming.py\", line 563, in stream_messages\n    async for event in process_stream(chunks, start_time, cancel_signal):\n        yield event\n  File \"/var/task/strands/event_loop/streaming.py\", line 454, in process_stream\n    async for chunk in chunks:\n    ...<36 lines>...\n            handle_redact_content(chunk[\"redactContent\"], state)\n  File \"/var/task/strands/models/bedrock.py\", line 1350, in stream\n    await task\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/asyncio/threads.py\", line 25, in to_thread\n    return await loop.run_in_executor(None, func_call)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/concurrent/futures/thread.py\", line 86, in run\n    result = ctx.run(self.task)\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/concurrent/futures/thread.py\", line 73, in run\n    return fn(*args, **kwargs)\n  File \"/var/task/opentelemetry/instrumentation/threading/__init__.py\", line 161, in wrapped_func\n    return original_func(*func_args, **func_kwargs)\n  File \"/var/task/strands/models/bedrock.py\", line 1468, in _stream\n    raise ModelThrottledException(error_message) from e\nstrands.types.exceptions.ModelThrottledException: An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.\n",
+            "exception.type": "strands.types.exceptions.ModelThrottledException",
+            "exception.message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again."
+          }
+        }
+      ],
+      "status": {
+        "message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.",
+        "code": "ERROR"
+      }
+    },
+    "@ptr": "CuABCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjcaGAIGqVUWWgAAAABDHo1RAAaplFMwAAADoiABKNyM37WGNDDzjN+1hjQ4BUDewQFIhaoBUMh3IAIQARgB"
+  },
+  {
+    "@timestamp": "2026-09-03 10:01:55.042",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-east-1",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "telemetry.sdk.version": "1.44.0",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.19.0-aws"
+        }
+      },
+      "scope": {
+        "name": "strands.telemetry.tracer",
+        "version": ""
+      },
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "72416b0c41f9e898",
+      "parentSpanId": "34696c98b5eafaa2",
+      "flags": 256,
+      "name": "execute_event_loop_cycle",
+      "kind": "INTERNAL",
+      "startTimeUnixNano": 1788429550631875800,
+      "endTimeUnixNano": 1788429715042657000,
+      "durationNano": 164410781069,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "gen_ai.operation.name": "execute_event_loop_cycle",
+        "gen_ai.event.end_time": "2026-09-03T10:01:55.039767+00:00",
+        "event_loop.cycle_id": "869a21e9-7b84-432c-894f-a0855a497e0f",
+        "gen_ai.event.start_time": "2026-09-03T09:59:10.631906+00:00",
+        "PlatformType": "AWS::BedrockAgentCore",
+        "session.id": "45b9e2b3-720e-49a2-9ce3-9035ddbcab0a",
+        "gen_ai.system": "strands-agents",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "gen_ai.provider.name": "strands-agents"
+      },
+      "events": [
+        {
+          "timeUnixNano": 1788429550631962400,
+          "name": "gen_ai.user.message",
+          "attributes": {
+            "content": "[{\"text\": \"My name is Alex and I just bought a Mechanical Keyboard\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1788429550631985200,
+          "name": "gen_ai.user.message",
+          "attributes": {
+            "content": "[{\"text\": \"<user_context>Alex bought a Mechanical Keyboard on 2026-09-03.\\nThe user's name is Alex.\\n<topic name=\\\"User Introduction\\\">\\nThe user identified themselves as Alex and stated they just bought a Mechanical Keyboard. This message was recorded on 2026-09-03 at 09:55:29 UTC (tracking_id: 34fcb431-cbfd-4ee6-b6f0-a5448ef43107).\\n</topic></user_context>\"}, {\"text\": \"What did I just buy?\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1788429715042649300,
+          "name": "exception",
+          "attributes": {
+            "exception.escaped": "False",
+            "exception.stacktrace": "Traceback (most recent call last):\n  File \"/var/task/strands/models/bedrock.py\", line 1400, in _stream\n    response = converse_method(**request)\n  File \"/var/task/botocore/client.py\", line 606, in _api_call\n    return self._make_api_call(operation_name, kwargs)\n           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/task/amazon/opentelemetry/distro/patches/_botocore_patches.py\", line 291, in patched_api_call\n    result = original_func(*args, **kwargs)\n  File \"/var/task/botocore/context.py\", line 123, in wrapper\n    return func(*args, **kwargs)\n  File \"/var/task/botocore/client.py\", line 1094, in _make_api_call\n    raise error_class(parsed_response, operation_name)\nbotocore.errorfactory.ThrottlingException: An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/var/task/strands/event_loop/event_loop.py\", line 299, in event_loop_cycle\n    async for model_event in model_events:\n        if not isinstance(model_event, ModelStopReason):\n            yield model_event\n  File \"/var/task/strands/event_loop/event_loop.py\", line 642, in _handle_model_execution\n    raise e\n  File \"/var/task/strands/event_loop/event_loop.py\", line 562, in _handle_model_execution\n    async for event in agent._middleware_registry.invoke(\n    ...<5 lines>...\n        yield event\n  File \"/var/task/strands/_middleware/registry.py\", line 167, in invoke\n    async for event in gen:\n        yield event\n  File \"/var/task/strands/event_loop/event_loop.py\", line 691, in terminal\n    async for event in stream_messages(\n    ...<11 lines>...\n        yield event\n  File \"/var/task/strands/event_loop/streaming.py\", line 563, in stream_messages\n    async for event in process_stream(chunks, start_time, cancel_signal):\n        yield event\n  File \"/var/task/strands/event_loop/streaming.py\", line 454, in process_stream\n    async for chunk in chunks:\n    ...<36 lines>...\n            handle_redact_content(chunk[\"redactContent\"], state)\n  File \"/var/task/strands/models/bedrock.py\", line 1350, in stream\n    await task\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/asyncio/threads.py\", line 25, in to_thread\n    return await loop.run_in_executor(None, func_call)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/concurrent/futures/thread.py\", line 86, in run\n    result = ctx.run(self.task)\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/concurrent/futures/thread.py\", line 73, in run\n    return fn(*args, **kwargs)\n  File \"/var/task/opentelemetry/instrumentation/threading/__init__.py\", line 161, in wrapped_func\n    return original_func(*func_args, **func_kwargs)\n  File \"/var/task/strands/models/bedrock.py\", line 1468, in _stream\n    raise ModelThrottledException(error_message) from e\nstrands.types.exceptions.ModelThrottledException: An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.\n",
+            "exception.type": "strands.types.exceptions.ModelThrottledException",
+            "exception.message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again."
+          }
+        }
+      ],
+      "status": {
+        "message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.",
+        "code": "ERROR"
+      }
+    },
+    "@ptr": "CuABCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjcaGAIGqVUWWgAAAABDHo1RAAaplFMwAAADoiABKNyM37WGNDDzjN+1hjQ4BUDewQFIhaoBUMh3IAIQAhgB"
+  },
+  {
+    "@timestamp": "2026-09-03 10:01:55.046",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-east-1",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "telemetry.sdk.version": "1.44.0",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.19.0-aws"
+        }
+      },
+      "scope": {
+        "name": "strands.telemetry.tracer",
+        "version": ""
+      },
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "34696c98b5eafaa2",
+      "parentSpanId": "f796ef9f2c6e7eea",
+      "flags": 256,
+      "name": "invoke_agent Strands Agents",
+      "kind": "INTERNAL",
+      "startTimeUnixNano": 1788429550274399200,
+      "endTimeUnixNano": 1788429715046433800,
+      "durationNano": 164772034539,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "gen_ai.agent.name": "Strands Agents",
+        "aws.genai.span_kind": "AGENT",
+        "system_prompt": "You are a helpful and professional customer support assistant for an e-commerce company.\nYour role is to:\n- Provide accurate information using the tools available to you\n- Be friendly, patient, and understanding with customers\n- Always offer additional help after answering questions\n- If you can't help with something, direct customers to the appropriate contact\n\nYou have access to tools for looking up return policies, searching product information, and more.\nAdditional tools may be available at runtime — always check your full tool list and use the most appropriate tool for each customer request.\nAlways use tools to get accurate, up-to-date information rather than guessing.",
+        "gen_ai.event.start_time": "2026-09-03T09:59:10.274424+00:00",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "gen_ai.provider.name": "strands-agents",
+        "gen_ai.operation.name": "invoke_agent",
+        "gen_ai.event.end_time": "2026-09-03T10:01:55.042800+00:00",
+        "gen_ai.request.model": "us.amazon.nova-micro-v1:0",
+        "gen_ai.agent.tools": "[\"get_return_policy\", \"get_product_info\", \"web_search_exa\", \"web_fetch_exa\", \"WarrantyCheck___check_warranty\"]",
+        "PlatformType": "AWS::BedrockAgentCore",
+        "session.id": "45b9e2b3-720e-49a2-9ce3-9035ddbcab0a",
+        "gen_ai.system": "strands-agents"
+      },
+      "events": [
+        {
+          "timeUnixNano": 1788429550274470100,
+          "name": "gen_ai.user.message",
+          "attributes": {
+            "content": "[{\"text\": \"What did I just buy?\"}]"
+          }
+        },
+        {
+          "timeUnixNano": 1788429715046425900,
+          "name": "exception",
+          "attributes": {
+            "exception.escaped": "False",
+            "exception.stacktrace": "Traceback (most recent call last):\n  File \"/var/task/strands/models/bedrock.py\", line 1400, in _stream\n    response = converse_method(**request)\n  File \"/var/task/botocore/client.py\", line 606, in _api_call\n    return self._make_api_call(operation_name, kwargs)\n           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/task/amazon/opentelemetry/distro/patches/_botocore_patches.py\", line 291, in patched_api_call\n    result = original_func(*args, **kwargs)\n  File \"/var/task/botocore/context.py\", line 123, in wrapper\n    return func(*args, **kwargs)\n  File \"/var/task/botocore/client.py\", line 1094, in _make_api_call\n    raise error_class(parsed_response, operation_name)\nbotocore.errorfactory.ThrottlingException: An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/var/task/strands/agent/agent.py\", line 1396, in stream_async\n    async for event in events:\n    ...<8 lines>...\n            yield as_dict\n  File \"/var/task/strands/agent/agent.py\", line 1513, in _run_loop\n    async for event in self._middleware_registry.invoke(\n    ...<6 lines>...\n        yield event\n  File \"/var/task/strands/_middleware/registry.py\", line 167, in invoke\n    async for event in gen:\n        yield event\n  File \"/var/task/strands/agent/agent.py\", line 1620, in terminal\n    async for event in events:\n    ...<17 lines>...\n        yield event\n  File \"/var/task/strands/agent/agent.py\", line 1675, in _execute_event_loop_cycle\n    async for event in events:\n        yield event\n  File \"/var/task/strands/event_loop/event_loop.py\", line 299, in event_loop_cycle\n    async for model_event in model_events:\n        if not isinstance(model_event, ModelStopReason):\n            yield model_event\n  File \"/var/task/strands/event_loop/event_loop.py\", line 642, in _handle_model_execution\n    raise e\n  File \"/var/task/strands/event_loop/event_loop.py\", line 562, in _handle_model_execution\n    async for event in agent._middleware_registry.invoke(\n    ...<5 lines>...\n        yield event\n  File \"/var/task/strands/_middleware/registry.py\", line 167, in invoke\n    async for event in gen:\n        yield event\n  File \"/var/task/strands/event_loop/event_loop.py\", line 691, in terminal\n    async for event in stream_messages(\n    ...<11 lines>...\n        yield event\n  File \"/var/task/strands/event_loop/streaming.py\", line 563, in stream_messages\n    async for event in process_stream(chunks, start_time, cancel_signal):\n        yield event\n  File \"/var/task/strands/event_loop/streaming.py\", line 454, in process_stream\n    async for chunk in chunks:\n    ...<36 lines>...\n            handle_redact_content(chunk[\"redactContent\"], state)\n  File \"/var/task/strands/models/bedrock.py\", line 1350, in stream\n    await task\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/asyncio/threads.py\", line 25, in to_thread\n    return await loop.run_in_executor(None, func_call)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/concurrent/futures/thread.py\", line 86, in run\n    result = ctx.run(self.task)\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/concurrent/futures/thread.py\", line 73, in run\n    return fn(*args, **kwargs)\n  File \"/var/task/opentelemetry/instrumentation/threading/__init__.py\", line 161, in wrapped_func\n    return original_func(*func_args, **func_kwargs)\n  File \"/var/task/strands/models/bedrock.py\", line 1468, in _stream\n    raise ModelThrottledException(error_message) from e\nstrands.types.exceptions.ModelThrottledException: An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.\n",
+            "exception.type": "strands.types.exceptions.ModelThrottledException",
+            "exception.message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again."
+          }
+        }
+      ],
+      "status": {
+        "message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.",
+        "code": "ERROR"
+      }
+    },
+    "@ptr": "CuABCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjcaGAIGqVUWWgAAAABDHo1RAAaplFMwAAADoiABKNyM37WGNDDzjN+1hjQ4BUDewQFIhaoBUMh3IAIQAxgB"
+  },
+  {
+    "@timestamp": "2026-09-03 10:01:55.046",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "aws.log.stream.names": "otel-rt-logs",
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "cloud.provider": "aws",
+          "cloud.region": "us-east-1",
+          "telemetry.auto.version": "0.19.0-aws",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "aws.service.type": "gen_ai_agent"
+        }
+      },
+      "scope": {
+        "name": "bedrock_agentcore.app"
+      },
+      "timeUnixNano": 1788429715046683600,
+      "observedTimeUnixNano": 1788429715055187500,
+      "severityNumber": 17,
+      "severityText": "ERROR",
+      "body": "Error in sync streaming",
+      "attributes": {
+        "otelSpanID": "f796ef9f2c6e7eea",
+        "otelTraceID": "6a9944ee21cb24332bfaecd57372aa2f",
+        "otelTraceSampled": true,
+        "otelServiceName": "CustomerSupport_CustomerSupport.DEFAULT",
+        "code.file.path": "/var/task/bedrock_agentcore/runtime/app.py",
+        "code.function.name": "_sync_stream_with_error_handling",
+        "code.line.number": 945,
+        "exception.type": "ModelThrottledException",
+        "exception.message": "An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.",
+        "exception.stacktrace": "Traceback (most recent call last):\n  File \"/var/task/strands/models/bedrock.py\", line 1400, in _stream\n    response = converse_method(**request)\n  File \"/var/task/botocore/client.py\", line 606, in _api_call\n    return self._make_api_call(operation_name, kwargs)\n           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/task/amazon/opentelemetry/distro/patches/_botocore_patches.py\", line 291, in patched_api_call\n    result = original_func(*args, **kwargs)\n  File \"/var/task/botocore/context.py\", line 123, in wrapper\n    return func(*args, **kwargs)\n  File \"/var/task/botocore/client.py\", line 1094, in _make_api_call\n    raise error_class(parsed_response, operation_name)\nbotocore.errorfactory.ThrottlingException: An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/var/task/bedrock_agentcore/runtime/app.py\", line 942, in _sync_stream_with_error_handling\n    for value in generator:\n                 ^^^^^^^^^\n  File \"/var/task/bedrock_agentcore/runtime/app.py\", line 790, in _async_gen_to_sync_gen\n    raise value\n  File \"/var/task/bedrock_agentcore/runtime/app.py\", line 749, in _produce\n    async for chunk in async_gen:\n    ...<2 lines>...\n            return\n  File \"/var/task/main.py\", line 78, in invoke\n    async for event in stream:\n        if \"data\" in event and isinstance(event[\"data\"], str):\n            yield event[\"data\"]\n  File \"/var/task/strands/agent/agent.py\", line 1396, in stream_async\n    async for event in events:\n    ...<8 lines>...\n            yield as_dict\n  File \"/var/task/strands/agent/agent.py\", line 1513, in _run_loop\n    async for event in self._middleware_registry.invoke(\n    ...<6 lines>...\n        yield event\n  File \"/var/task/strands/_middleware/registry.py\", line 167, in invoke\n    async for event in gen:\n        yield event\n  File \"/var/task/strands/agent/agent.py\", line 1620, in terminal\n    async for event in events:\n    ...<17 lines>...\n        yield event\n  File \"/var/task/strands/agent/agent.py\", line 1675, in _execute_event_loop_cycle\n    async for event in events:\n        yield event\n  File \"/var/task/strands/event_loop/event_loop.py\", line 299, in event_loop_cycle\n    async for model_event in model_events:\n        if not isinstance(model_event, ModelStopReason):\n            yield model_event\n  File \"/var/task/strands/event_loop/event_loop.py\", line 642, in _handle_model_execution\n    raise e\n  File \"/var/task/strands/event_loop/event_loop.py\", line 562, in _handle_model_execution\n    async for event in agent._middleware_registry.invoke(\n    ...<5 lines>...\n        yield event\n  File \"/var/task/strands/_middleware/registry.py\", line 167, in invoke\n    async for event in gen:\n        yield event\n  File \"/var/task/strands/event_loop/event_loop.py\", line 691, in terminal\n    async for event in stream_messages(\n    ...<11 lines>...\n        yield event\n  File \"/var/task/strands/event_loop/streaming.py\", line 563, in stream_messages\n    async for event in process_stream(chunks, start_time, cancel_signal):\n        yield event\n  File \"/var/task/strands/event_loop/streaming.py\", line 454, in process_stream\n    async for chunk in chunks:\n    ...<36 lines>...\n            handle_redact_content(chunk[\"redactContent\"], state)\n  File \"/var/task/strands/models/bedrock.py\", line 1350, in stream\n    await task\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/asyncio/threads.py\", line 25, in to_thread\n    return await loop.run_in_executor(None, func_call)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/concurrent/futures/thread.py\", line 86, in run\n    result = ctx.run(self.task)\n  File \"/opt/aws/agentcore-runtime/python/versions/3.14.2/lib/python3.14/concurrent/futures/thread.py\", line 73, in run\n    return fn(*args, **kwargs)\n  File \"/var/task/opentelemetry/instrumentation/threading/__init__.py\", line 161, in wrapped_func\n    return original_func(*func_args, **func_kwargs)\n  File \"/var/task/strands/models/bedrock.py\", line 1468, in _stream\n    raise ModelThrottledException(error_message) from e\nstrands.types.exceptions.ModelThrottledException: An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many tokens per day, please wait before trying again.\n"
+      },
+      "flags": 1,
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "f796ef9f2c6e7eea"
+    },
+    "@ptr": "Ct4BCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjUaGAIGp0D8fgAAAABL1faRAAaplFhAAAAB4iABKOaM37WGNDDmjN+1hjQ4AUCEMkjbPlDiKiACEAAYAQ=="
+  },
+  {
+    "@timestamp": "2026-09-03 10:01:55.059",
+    "@message": {
+      "resource": {
+        "attributes": {
+          "deployment.environment.name": "bedrock-agentcore:default",
+          "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+          "service.name": "CustomerSupport_CustomerSupport.DEFAULT",
+          "cloud.region": "us-east-1",
+          "aws.log.stream.names": "otel-rt-logs",
+          "telemetry.sdk.name": "opentelemetry",
+          "aws.service.type": "gen_ai_agent",
+          "telemetry.sdk.language": "python",
+          "cloud.provider": "aws",
+          "service.instance.id": "ba0e0ea3-a3db-4692-9e45-13a76c1b29d7",
+          "cloud.resource_id": "arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ/runtime-endpoint/DEFAULT:DEFAULT",
+          "aws.log.group.names": "/aws/bedrock-agentcore/runtimes/CustomerSupport_CustomerSupport-nDetTy7GmQ-DEFAULT",
+          "telemetry.sdk.version": "1.44.0",
+          "cloud.platform": "aws_bedrock_agentcore",
+          "telemetry.auto.version": "0.19.0-aws"
+        }
+      },
+      "scope": {
+        "name": "opentelemetry.instrumentation.starlette",
+        "version": "0.65b0"
+      },
+      "traceId": "6a9944ee21cb24332bfaecd57372aa2f",
+      "spanId": "f796ef9f2c6e7eea",
+      "parentSpanId": "1bb531c3a9cbaeb6",
+      "flags": 768,
+      "name": "POST /invocations",
+      "kind": "SERVER",
+      "startTimeUnixNano": 1788429550272543500,
+      "endTimeUnixNano": 1788429715059934200,
+      "durationNano": 164787390766,
+      "attributes": {
+        "aws.local.service": "CustomerSupport_CustomerSupport.DEFAULT",
+        "net.peer.port": 35550,
+        "telemetry.extended": "true",
+        "http.target": "/invocations",
+        "http.flavor": "1.1",
+        "http.url": "http://cell01.us-east-1.prod.arp.kepler-analytics.aws.dev/invocations",
+        "net.peer.ip": "127.0.0.1",
+        "http.host": "127.0.0.1:8080",
+        "aws.local.environment": "bedrock-agentcore:default",
+        "http.status_code": 200,
+        "aws.local.operation": "POST /invocations",
+        "aws.span.kind": "SERVER",
+        "http.server_name": "cell01.us-east-1.prod.arp.kepler-analytics.aws.dev",
+        "net.host.port": 8080,
+        "http.route": "/invocations",
+        "PlatformType": "AWS::BedrockAgentCore",
+        "http.method": "POST",
+        "http.response.status_code": 200,
+        "session.id": "45b9e2b3-720e-49a2-9ce3-9035ddbcab0a",
+        "http.scheme": "http"
+      },
+      "status": {
+        "code": "UNSET"
+      }
+    },
+    "@ptr": "CuABCqIBCl8zMDkzMDcyMDY1NjU6L2F3cy9iZWRyb2NrLWFnZW50Y29yZS9ydW50aW1lcy9DdXN0b21lclN1cHBvcnRfQ3VzdG9tZXJTdXBwb3J0LW5EZXRUeTdHbVEtREVGQVVMVBAAGiRjYTE5NzkxNS03YWI5LTQ0OGMtOGVkMC0wMGVhN2M5NjEyNTkiDgjIzMKxhjQQr72VtoY0QMjMwrGGNEgAEjcaGAIGqVUWWgAAAABDHo1RAAaplFMwAAADoiABKNyM37WGNDDzjN+1hjQ4BUDewQFIhaoBUMh3IAIQBBgB"
+  }
+]

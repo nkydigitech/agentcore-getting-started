@@ -1,0 +1,13 @@
+AgentCore Status (target: default, us-east-1)
+
+Agents
+  CustomerSupport: Deployed (arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-nDetTy7GmQ) - Error: Agent with agentId: CustomerSupport_CustomerSupport-nDetTy7GmQ, accountId: 309307206565, and
+version: null not found!
+  URL: https://bedrock-agentcore.us-east-1.amazonaws.com/runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-east-1%3A309307206565%3Aruntime%2FCustomerSupport_CustomerSupport-nDetTy7GmQ/invocations
+
+Memories
+  SharedMemory: Deployed (SEMANTIC, SUMMARIZATION) (arn:aws:bedrock-agentcore:us-east-1:309307206565:memory/CustomerSupport_SharedMemory-rTT75GC95r)
+
+Gateways
+  my-gateway: Deployed (1 target) (customersupport-my-gateway-v5wawbt1ev)
+  my-gateway-jwt: Deployed (customersupport-my-gateway-jwt-qvtkeokzvx)
