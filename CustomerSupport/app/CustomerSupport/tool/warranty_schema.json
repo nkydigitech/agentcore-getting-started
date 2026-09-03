@@ -1,0 +1,13 @@
+[
+  {
+    "name": "check_warranty",
+    "description": "Check the warranty status of a product by its product ID (e.g. PROD-001). Returns warranty duration, status (active/expired), and expiration date.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "product_id": {"type": "string","description": "The product ID to check warranty for (e.g. PROD-001)"}
+      },
+      "required": ["product_id"]
+    }
+  }
+]

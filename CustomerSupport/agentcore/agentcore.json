@@ -45,7 +45,26 @@
   "credentials": [],
   "evaluators": [],
   "onlineEvalConfigs": [],
-  "agentCoreGateways": [],
+  "agentCoreGateways": [
+    {
+      "name": "my-gateway",
+      "protocolType": "None",
+      "description": "Gateway for my-gateway",
+      "targets": [
+        {
+          "name": "WarrantyCheck",
+          "targetType": "lambdaFunctionArn",
+          "lambdaFunctionArn": {
+            "lambdaArn": "arn:aws:lambda:us-east-1:309307206565:function:workshop-warranty-check",
+            "toolSchemaFile": "app/CustomerSupport/tool/warranty_schema.json"
+          }
+        }
+      ],
+      "authorizerType": "NONE",
+      "enableSemanticSearch": true,
+      "exceptionLevel": "NONE"
+    }
+  ],
   "policyEngines": [],
   "configBundles": [],
   "abTests": [],
