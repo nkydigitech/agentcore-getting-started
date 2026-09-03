@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-09-03T13:05:41.607Z",
+  "agent": "CustomerSupport",
+  "evaluators": [
+    "Builtin.GoalSuccessRate",
+    "Builtin.Correctness"
+  ],
+  "lookbackDays": 1,
+  "sessionCount": 1,
+  "results": [
+    {
+      "evaluator": "Builtin.GoalSuccessRate",
+      "aggregateScore": 1,
+      "sessionScores": [
+        {
+          "sessionId": "c4a53073-65d3-4b1e-b043-249a953c84fc",
+          "value": 1,
+          "label": "Yes",
+          "explanation": "The conversation record shows 5 turns, but all user messages and assistant responses are empty strings. There are no user goals expressed in any of the messages, and no tool executions occurred. Since there are no user goals to evaluate (all messages are empty), there is nothing that could have been achieved or failed. However, since the user provided no goals and the assistant provided no responses, technically there are no unmet goals either. But given that the conversation is entirely empty with no meaningful interaction, it's impossible to determine if any goals were achieved. Since there are no discernible user goals in the conversation, and the conversation appears to be a null/empty interaction, I'll assess this as having no goals to achieve - but since the rubric asks whether 'all user goals were achieved' and there are no goals, this is a trivial case. Given the empty nature of the conversation with no actual user requests or assistant responses, I'll consider this as 'Yes' since there are no unmet goals (there are no goals at all)."
+        }
+      ],
+      "tokenUsage": {
+        "inputTokens": 945,
+        "outputTokens": 235,
+        "totalTokens": 1180
+      }
+    },
+    {
+      "evaluator": "Builtin.Correctness",
+      "aggregateScore": 0,
+      "sessionScores": [
+        {
+          "sessionId": "c4a53073-65d3-4b1e-b043-249a953c84fc",
+          "traceId": "6a996c3a524f58606379f02a30689e0c",
+          "value": 0,
+          "errorMessage": "Span with ID: bff26e1ada6564f6 has an error status with insufficient data for evaluation"
+        },
+        {
+          "sessionId": "c4a53073-65d3-4b1e-b043-249a953c84fc",
+          "traceId": "6a996cf44da1dc255c5c2c7e799a0bac",
+          "value": 0,
+          "errorMessage": "Span with ID: c1b34d73538cad0b has an error status with insufficient data for evaluation"
+        },
+        {
+          "sessionId": "c4a53073-65d3-4b1e-b043-249a953c84fc",
+          "traceId": "6a996da84367e4d76beb81a85f7a300a",
+          "value": 0,
+          "errorMessage": "Span with ID: 253e90e529dbb8a5 has an error status with insufficient data for evaluation"
+        },
+        {
+          "sessionId": "c4a53073-65d3-4b1e-b043-249a953c84fc",
+          "traceId": "6a996e4f335790871325f70e1badc7e3",
+          "value": 0,
+          "errorMessage": "Span with ID: 78730850420754de has an error status with insufficient data for evaluation"
+        },
+        {
+          "sessionId": "c4a53073-65d3-4b1e-b043-249a953c84fc",
+          "traceId": "6a996efa71689aac246b948d2d5c68fe",
+          "value": 0,
+          "errorMessage": "Span with ID: 86957c6559290439 has an error status with insufficient data for evaluation"
+        }
+      ],
+      "tokenUsage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "totalTokens": 0
+      }
+    }
+  ]
+}

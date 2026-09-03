@@ -1,0 +1,14 @@
+AgentCore Status (target: default, us-east-1)
+
+Agents
+  CustomerSupport: Deployed - Runtime: READY (arn:aws:bedrock-agentcore:us-east-1:309307206565:runtime/CustomerSupport_CustomerSupport-T9EuWp6FNB)
+  URL: https://bedrock-agentcore.us-east-1.amazonaws.com/runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-east-1%3A309307206565%3Aruntime%2FCustomerSupport_CustomerSupport-T9EuWp6FNB/invocations
+
+Memories
+  SharedMemory: Deployed (SEMANTIC, SUMMARIZATION) (arn:aws:bedrock-agentcore:us-east-1:309307206565:memory/CustomerSupport_SharedMemory-kT7m609QPN)
+
+Gateways
+  my-gateway: Deployed (1 target) (customersupport-my-gateway-ivafeue73u)
+
+Online Eval Configs
+  QualityMonitor: Deployed (3 evaluators, 100% sampling — ACTIVE (ENABLED)) (arn:aws:bedrock-agentcore:us-east-1:309307206565:online-evaluation-config/CustomerSupport_QualityMonitor-PcSURIGIOO)

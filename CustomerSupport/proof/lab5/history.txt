@@ -1,0 +1,9 @@
+
+Date                   Agent                Evaluators                     Sessions
+──────────────────────────────────────────────────────────────────────────────────────────
+Sep 3, 2026, 01:22 PM  CustomerSupport      Builtin.GoalSuccessRate=1.00, Builtin.Correctness=0.00 3
+Sep 3, 2026, 01:16 PM  CustomerSupport      Builtin.GoalSuccessRate=0.67, Builtin.Correctness=0.00 3
+Sep 3, 2026, 01:05 PM  CustomerSupport      Builtin.GoalSuccessRate=1.00, Builtin.Correctness=0.00 1
+
+Results saved in: /workspaces/agentcore-getting-started/CustomerSupport/agentcore/.cli/eval-results
+
